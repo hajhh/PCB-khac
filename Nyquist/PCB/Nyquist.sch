@@ -1,0 +1,2363 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 5950 2400 1    50   Input ~ 0
+COL1
+Text GLabel 6550 2400 1    50   Input ~ 0
+COL2
+Text GLabel 7150 2400 1    50   Input ~ 0
+COL3
+Text GLabel 7750 2400 1    50   Input ~ 0
+COL4
+Text GLabel 8350 2400 1    50   Input ~ 0
+COL5
+Text GLabel 8950 2400 1    50   Input ~ 0
+COL6
+Text GLabel 9700 3300 2    50   Input ~ 0
+ROWA
+Text GLabel 9700 3950 2    50   Input ~ 0
+ROWB
+Text GLabel 9700 4600 2    50   Input ~ 0
+ROWC
+Text GLabel 9700 5250 2    50   Input ~ 0
+ROWD
+Text GLabel 9700 6100 2    50   Input ~ 0
+ROWE
+Wire Wire Line
+	9350 5800 9350 5600
+Connection ~ 9350 5800
+Wire Wire Line
+	5950 5800 5950 4950
+Connection ~ 5950 3000
+Wire Wire Line
+	5950 3000 5950 2400
+Connection ~ 5950 3650
+Wire Wire Line
+	5950 3650 5950 3000
+Connection ~ 5950 4300
+Wire Wire Line
+	5950 4300 5950 3650
+Connection ~ 5950 4950
+Wire Wire Line
+	5950 4950 5950 4300
+Wire Wire Line
+	6550 2400 6550 3000
+Connection ~ 6550 3000
+Wire Wire Line
+	6550 3000 6550 3650
+Connection ~ 6550 3650
+Wire Wire Line
+	6550 3650 6550 4300
+Connection ~ 6550 4300
+Wire Wire Line
+	6550 4300 6550 4950
+Connection ~ 6550 4950
+Wire Wire Line
+	6550 4950 6550 5800
+Wire Wire Line
+	7150 5800 7150 4950
+Connection ~ 7150 3000
+Wire Wire Line
+	7150 3000 7150 2400
+Connection ~ 7150 3650
+Wire Wire Line
+	7150 3650 7150 3000
+Connection ~ 7150 4300
+Wire Wire Line
+	7150 4300 7150 3650
+Connection ~ 7150 4950
+Wire Wire Line
+	7150 4950 7150 4300
+Wire Wire Line
+	7750 2400 7750 3000
+Connection ~ 7750 3000
+Wire Wire Line
+	7750 3000 7750 3650
+Connection ~ 7750 3650
+Wire Wire Line
+	7750 3650 7750 4300
+Connection ~ 7750 4300
+Wire Wire Line
+	7750 4300 7750 4950
+Connection ~ 7750 4950
+Wire Wire Line
+	7750 4950 7750 5800
+Wire Wire Line
+	8350 5800 8350 4950
+Connection ~ 8350 3000
+Wire Wire Line
+	8350 3000 8350 2400
+Connection ~ 8350 3650
+Wire Wire Line
+	8350 3650 8350 3000
+Connection ~ 8350 4300
+Wire Wire Line
+	8350 4300 8350 3650
+Connection ~ 8350 4950
+Wire Wire Line
+	8350 4950 8350 4300
+Wire Wire Line
+	8950 2400 8950 3000
+Connection ~ 8950 3000
+Wire Wire Line
+	8950 3000 8950 3650
+Connection ~ 8950 3650
+Wire Wire Line
+	8950 3650 8950 4300
+Connection ~ 8950 4300
+Wire Wire Line
+	8950 4300 8950 4950
+Connection ~ 8950 4950
+Wire Wire Line
+	8950 4950 8950 5600
+Connection ~ 8950 5600
+Wire Wire Line
+	8950 5600 8950 5800
+Wire Wire Line
+	6350 3300 6950 3300
+Connection ~ 6950 3300
+Wire Wire Line
+	6950 3300 7550 3300
+Connection ~ 7550 3300
+Wire Wire Line
+	7550 3300 8150 3300
+Connection ~ 8150 3300
+Wire Wire Line
+	8150 3300 8750 3300
+Connection ~ 8750 3300
+Wire Wire Line
+	8750 3300 9350 3300
+Connection ~ 9350 3300
+Wire Wire Line
+	9350 3300 9700 3300
+Wire Wire Line
+	9700 3950 9350 3950
+Connection ~ 6950 3950
+Wire Wire Line
+	6950 3950 6350 3950
+Connection ~ 7550 3950
+Wire Wire Line
+	7550 3950 6950 3950
+Connection ~ 8150 3950
+Wire Wire Line
+	8150 3950 7550 3950
+Connection ~ 8750 3950
+Wire Wire Line
+	8750 3950 8150 3950
+Connection ~ 9350 3950
+Wire Wire Line
+	9350 3950 8750 3950
+Wire Wire Line
+	6350 4600 6950 4600
+Connection ~ 6950 4600
+Wire Wire Line
+	6950 4600 7550 4600
+Connection ~ 7550 4600
+Wire Wire Line
+	7550 4600 8150 4600
+Connection ~ 8150 4600
+Wire Wire Line
+	8150 4600 8750 4600
+Connection ~ 8750 4600
+Wire Wire Line
+	8750 4600 9350 4600
+Connection ~ 9350 4600
+Wire Wire Line
+	9350 4600 9700 4600
+Wire Wire Line
+	9700 5250 9350 5250
+Connection ~ 6950 5250
+Wire Wire Line
+	6950 5250 6350 5250
+Connection ~ 7550 5250
+Wire Wire Line
+	7550 5250 6950 5250
+Connection ~ 8150 5250
+Wire Wire Line
+	8150 5250 7550 5250
+Connection ~ 8750 5250
+Wire Wire Line
+	8750 5250 8150 5250
+Connection ~ 9350 5250
+Wire Wire Line
+	9350 5250 8750 5250
+Wire Wire Line
+	6350 6100 6950 6100
+Connection ~ 6950 6100
+Wire Wire Line
+	6950 6100 7550 6100
+Connection ~ 7550 6100
+Wire Wire Line
+	7550 6100 8150 6100
+Connection ~ 8150 6100
+Wire Wire Line
+	8150 6100 8750 6100
+Connection ~ 8750 6100
+Wire Wire Line
+	8750 6100 9350 6100
+Connection ~ 9350 6100
+Wire Wire Line
+	9350 6100 9700 6100
+$Comp
+L power:GND #PWR0114
+U 1 1 5CA45F56
+P 9800 1450
+F 0 "#PWR0114" H 9800 1200 50  0001 C CNN
+F 1 "GND" H 9805 1277 50  0000 C CNN
+F 2 "" H 9800 1450 50  0001 C CNN
+F 3 "" H 9800 1450 50  0001 C CNN
+	1    9800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5CA46482
+P 10400 1350
+F 0 "#PWR0115" H 10400 1100 50  0001 C CNN
+F 1 "GND" H 10405 1177 50  0000 C CNN
+F 2 "" H 10400 1350 50  0001 C CNN
+F 3 "" H 10400 1350 50  0001 C CNN
+	1    10400 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9800 1150 0    50   Input ~ 0
+LED
+Text GLabel 10400 950  1    50   Input ~ 0
+LED_OUT
+$Comp
+L power:GND #PWR0119
+U 1 1 5CB0E660
+P 10400 2050
+F 0 "#PWR0119" H 10400 1800 50  0001 C CNN
+F 1 "GND" H 10405 1877 50  0000 C CNN
+F 2 "" H 10400 2050 50  0001 C CNN
+F 3 "" H 10400 2050 50  0001 C CNN
+	1    10400 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 10400 1650 2    50   Input ~ 0
+LED_OUT
+Wire Wire Line
+	10100 1850 10100 1150
+Connection ~ 10100 1150
+Text GLabel 7200 900  3    50   Input ~ 0
+xdata
+$Comp
+L power:GND #PWR0101
+U 1 1 5CA30CE4
+P 1200 1100
+F 0 "#PWR0101" H 1200 850 50  0001 C CNN
+F 1 "GND" V 1205 972 50  0000 R CNN
+F 2 "" H 1200 1100 50  0001 C CNN
+F 3 "" H 1200 1100 50  0001 C CNN
+	1    1200 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CA30EDE
+P 1200 1200
+F 0 "#PWR0102" H 1200 950 50  0001 C CNN
+F 1 "GND" V 1205 1072 50  0000 R CNN
+F 2 "" H 1200 1200 50  0001 C CNN
+F 3 "" H 1200 1200 50  0001 C CNN
+	1    1200 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CA31145
+P 2600 1000
+F 0 "#PWR0103" H 2600 750 50  0001 C CNN
+F 1 "GND" V 2605 872 50  0000 R CNN
+F 2 "" H 2600 1000 50  0001 C CNN
+F 3 "" H 2600 1000 50  0001 C CNN
+	1    2600 1000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1200 1000 0    50   Input ~ 0
+COL1
+Text GLabel 1200 1500 0    50   Input ~ 0
+ROWA
+Text GLabel 1200 1600 0    50   Input ~ 0
+C6
+Text GLabel 1200 1700 0    50   Input ~ 0
+ROWB
+Text GLabel 1200 1800 0    50   Input ~ 0
+ROWC
+Text GLabel 1200 1900 0    50   Input ~ 0
+ROWD
+Text GLabel 1200 2000 0    50   Input ~ 0
+ROWE
+NoConn ~ 2600 900 
+Text GLabel 2600 1300 2    50   Input ~ 0
+F4
+Text GLabel 2600 1400 2    50   Input ~ 0
+COL2
+Text GLabel 2600 1500 2    50   Input ~ 0
+COL3
+Text GLabel 2600 1600 2    50   Input ~ 0
+COL4
+Text GLabel 2600 1700 2    50   Input ~ 0
+COL5
+Text GLabel 2600 1800 2    50   Input ~ 0
+COL6
+Text GLabel 2600 1900 2    50   Input ~ 0
+B2
+Text GLabel 2600 2000 2    50   Input ~ 0
+LED
+$Comp
+L power:VCC #PWR0106
+U 1 1 5CA33C86
+P 2600 1200
+F 0 "#PWR0106" H 2600 1050 50  0001 C CNN
+F 1 "VCC" V 2617 1328 50  0000 L CNN
+F 2 "" H 2600 1200 50  0001 C CNN
+F 3 "" H 2600 1200 50  0001 C CNN
+	1    2600 1200
+	0    1    1    0   
+$EndComp
+Text GLabel 1200 1400 0    50   Input ~ 0
+data
+Text GLabel 1200 1300 0    50   Input ~ 0
+xdata
+Text GLabel 2600 1100 2    50   Input ~ 0
+RST
+$Comp
+L power:GND #PWR0107
+U 1 1 5CA34D52
+P 3750 950
+F 0 "#PWR0107" H 3750 700 50  0001 C CNN
+F 1 "GND" V 3755 822 50  0000 R CNN
+F 2 "" H 3750 950 50  0001 C CNN
+F 3 "" H 3750 950 50  0001 C CNN
+	1    3750 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5DB62E29
+P 3750 1250
+F 0 "#PWR02" H 3750 1000 50  0001 C CNN
+F 1 "GND" V 3755 1122 50  0000 R CNN
+F 2 "" H 3750 1250 50  0001 C CNN
+F 3 "" H 3750 1250 50  0001 C CNN
+	1    3750 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 1250 3350 950 
+Text GLabel 3350 1100 0    50   Input ~ 0
+RST
+Wire Wire Line
+	6550 750  6700 750 
+$Comp
+L power:VCC #PWR01
+U 1 1 5DB7C0BE
+P 6700 750
+F 0 "#PWR01" H 6700 600 50  0001 C CNN
+F 1 "VCC" H 6717 923 50  0000 C CNN
+F 2 "" H 6700 750 50  0001 C CNN
+F 3 "" H 6700 750 50  0001 C CNN
+	1    6700 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 6700 750 
+Wire Wire Line
+	6700 750  6850 750 
+Text GLabel 6850 1050 3    50   Input ~ 0
+data
+Text GLabel 6550 1050 3    50   Input ~ 0
+xdata
+$Comp
+L power:VCC #PWR0113
+U 1 1 5CA3F96B
+P 8250 800
+F 0 "#PWR0113" H 8250 650 50  0001 C CNN
+F 1 "VCC" H 8267 973 50  0000 C CNN
+F 2 "" H 8250 800 50  0001 C CNN
+F 3 "" H 8250 800 50  0001 C CNN
+	1    8250 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5CA3F5B0
+P 7850 900
+F 0 "#PWR0112" H 7850 650 50  0001 C CNN
+F 1 "GND" H 7855 727 50  0000 C CNN
+F 2 "" H 7850 900 50  0001 C CNN
+F 3 "" H 7850 900 50  0001 C CNN
+	1    7850 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1450 4850 1450
+Wire Wire Line
+	4850 1450 4850 900 
+Wire Wire Line
+	4850 900  5100 900 
+Wire Wire Line
+	5100 1000 4900 1000
+Wire Wire Line
+	4900 1000 4900 1550
+Wire Wire Line
+	4900 1550 5100 1550
+Wire Wire Line
+	5100 1650 4950 1650
+Wire Wire Line
+	4950 1650 4950 1100
+Wire Wire Line
+	4950 1100 5100 1100
+Wire Wire Line
+	5100 1200 5000 1200
+Wire Wire Line
+	5000 1200 5000 1750
+Wire Wire Line
+	5000 1750 5100 1750
+Wire Wire Line
+	5000 1200 4700 1200
+Connection ~ 5000 1200
+Wire Wire Line
+	4950 1100 4700 1100
+Connection ~ 4950 1100
+Wire Wire Line
+	4900 1000 4700 1000
+Connection ~ 4900 1000
+Wire Wire Line
+	4850 900  4700 900 
+Connection ~ 4850 900 
+Wire Wire Line
+	1850 2750 1950 2750
+Wire Wire Line
+	1850 2900 1950 2900
+Wire Wire Line
+	1850 3050 1950 3050
+Wire Wire Line
+	1850 3200 1950 3200
+Wire Wire Line
+	1850 3350 1950 3350
+Wire Wire Line
+	1850 3500 1950 3500
+Wire Wire Line
+	1850 3650 1950 3650
+Wire Wire Line
+	1850 3800 1950 3800
+Wire Wire Line
+	1850 3950 1950 3950
+Wire Wire Line
+	1850 4100 1950 4100
+Wire Wire Line
+	1850 4250 1950 4250
+Wire Wire Line
+	1850 4400 1950 4400
+Wire Wire Line
+	3150 2750 3250 2750
+Wire Wire Line
+	3150 2900 3250 2900
+Wire Wire Line
+	3150 3050 3250 3050
+Wire Wire Line
+	3150 3200 3250 3200
+Wire Wire Line
+	3150 3350 3250 3350
+Wire Wire Line
+	3150 3500 3250 3500
+Wire Wire Line
+	3150 3650 3250 3650
+Wire Wire Line
+	3150 3800 3250 3800
+Wire Wire Line
+	3150 3950 3250 3950
+Wire Wire Line
+	3150 4100 3250 4100
+Wire Wire Line
+	3150 4250 3250 4250
+Wire Wire Line
+	3150 4400 3250 4400
+Wire Wire Line
+	3150 4550 3250 4550
+Wire Wire Line
+	3150 4700 3250 4700
+Wire Wire Line
+	3150 4850 3250 4850
+Wire Wire Line
+	3150 5000 3250 5000
+Wire Wire Line
+	1850 4550 1950 4550
+Wire Wire Line
+	1850 4700 1950 4700
+Wire Wire Line
+	1850 4850 1950 4850
+Connection ~ 2850 2750
+Wire Wire Line
+	2850 2750 2850 2900
+Connection ~ 2850 2900
+Wire Wire Line
+	2850 2900 2850 3050
+Connection ~ 2850 3050
+Wire Wire Line
+	2850 3050 2850 3200
+Connection ~ 2850 3200
+Wire Wire Line
+	2850 3200 2850 3350
+Connection ~ 2850 3350
+Wire Wire Line
+	2850 3350 2850 3500
+Connection ~ 2850 3500
+Wire Wire Line
+	2850 3500 2850 3650
+Connection ~ 2850 3650
+Wire Wire Line
+	2850 3650 2850 3800
+Connection ~ 2850 3800
+Wire Wire Line
+	2850 3800 2850 3950
+Connection ~ 2850 3950
+Wire Wire Line
+	2850 3950 2850 4100
+Connection ~ 2850 4100
+Wire Wire Line
+	2850 4100 2850 4250
+Connection ~ 2850 4250
+Wire Wire Line
+	2850 4250 2850 4400
+Connection ~ 2850 4400
+Wire Wire Line
+	2850 4400 2850 4550
+Connection ~ 2850 4550
+Wire Wire Line
+	2850 4550 2850 4700
+Connection ~ 2850 4700
+Wire Wire Line
+	2850 4700 2850 4850
+Connection ~ 2850 4850
+Wire Wire Line
+	2850 4850 2850 5000
+Wire Wire Line
+	2250 2400 3550 2400
+Wire Wire Line
+	2850 2350 1550 2350
+Wire Wire Line
+	1550 2350 1550 2750
+Wire Wire Line
+	2850 2350 2850 2750
+Connection ~ 1550 2750
+Wire Wire Line
+	1550 2750 1550 2900
+Connection ~ 1550 2900
+Wire Wire Line
+	1550 2900 1550 3050
+Connection ~ 1550 3050
+Wire Wire Line
+	1550 3050 1550 3200
+Connection ~ 1550 3200
+Wire Wire Line
+	1550 3200 1550 3350
+Connection ~ 1550 3350
+Wire Wire Line
+	1550 3350 1550 3500
+Connection ~ 1550 3500
+Wire Wire Line
+	1550 3500 1550 3650
+Connection ~ 1550 3650
+Wire Wire Line
+	1550 3650 1550 3800
+Connection ~ 1550 3800
+Wire Wire Line
+	1550 3800 1550 3950
+Connection ~ 1550 3950
+Wire Wire Line
+	1550 3950 1550 4100
+Connection ~ 1550 4100
+Wire Wire Line
+	1550 4100 1550 4250
+Connection ~ 1550 4250
+Wire Wire Line
+	1550 4250 1550 4400
+Connection ~ 1550 4400
+Wire Wire Line
+	1550 4400 1550 4550
+Connection ~ 1550 4550
+Wire Wire Line
+	1550 4550 1550 4700
+Connection ~ 1550 4700
+Wire Wire Line
+	1550 4700 1550 4850
+$Comp
+L power:VCC #PWR03
+U 1 1 5DC6CEA6
+P 3550 2400
+F 0 "#PWR03" H 3550 2250 50  0001 C CNN
+F 1 "VCC" H 3567 2573 50  0000 C CNN
+F 2 "" H 3550 2400 50  0001 C CNN
+F 3 "" H 3550 2400 50  0001 C CNN
+	1    3550 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 2400
+Text GLabel 1550 2350 0    50   Input ~ 0
+LED_OUT
+$Comp
+L Connector:TestPoint J_RGB1
+U 1 1 5CA2EF90
+P 1200 900
+F 0 "J_RGB1" H 1142 1018 50  0000 R CNN
+F 1 " " H 1142 927 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:TestPoint" H 1400 900 50  0001 C CNN
+F 3 "~" H 1400 900 50  0001 C CNN
+	1    1200 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint VCC1
+U 1 1 5CA403B0
+P 8250 800
+F 0 "VCC1" H 8192 826 50  0000 R CNN
+F 1 " " H 8192 917 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:TestPoint" H 8450 800 50  0001 C CNN
+F 3 "~" H 8450 800 50  0001 C CNN
+	1    8250 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q1
+U 1 1 5CA42D41
+P 10300 1150
+F 0 "Q1" H 10506 1196 50  0000 L CNN
+F 1 "2N7002" H 10506 1105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10500 1075 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 10300 1150 50  0001 L CNN
+	1    10300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5CA451CA
+P 9950 1150
+F 0 "R4" V 9743 1150 50  0000 C CNN
+F 1 "100K" V 9834 1150 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 9880 1150 50  0001 C CNN
+F 3 "~" H 9950 1150 50  0001 C CNN
+	1    9950 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CA45B82
+P 9800 1300
+F 0 "R3" H 9870 1346 50  0000 L CNN
+F 1 "100K" H 9870 1255 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:R" V 9730 1300 50  0001 C CNN
+F 3 "~" H 9800 1300 50  0001 C CNN
+	1    9800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D9525F7
+P 6150 3000
+F 0 "SW1" H 6150 3285 50  0000 C CNN
+F 1 " " H 6150 3194 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 6150 3200 50  0001 C CNN
+F 3 "~" H 6150 3200 50  0001 C CNN
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D1
+U 1 1 5D95470E
+P 6350 3150
+F 0 "D1" V 6304 3230 50  0000 L CNN
+F 1 " " V 6395 3230 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 6350 3150 50  0001 C CNN
+F 3 "~" H 6350 3150 50  0001 C CNN
+F 4 "Y" H 6350 3150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6350 3150 50  0001 L CNN "Spice_Primitive"
+	1    6350 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5D95B757
+P 6750 3000
+F 0 "SW2" H 6750 3285 50  0000 C CNN
+F 1 " " H 6750 3194 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 6750 3200 50  0001 C CNN
+F 3 "~" H 6750 3200 50  0001 C CNN
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D2
+U 1 1 5D95B75F
+P 6950 3150
+F 0 "D2" V 6904 3230 50  0000 L CNN
+F 1 " " V 6995 3230 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 6950 3150 50  0001 C CNN
+F 3 "~" H 6950 3150 50  0001 C CNN
+F 4 "Y" H 6950 3150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6950 3150 50  0001 L CNN "Spice_Primitive"
+	1    6950 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5D9763C9
+P 7350 3000
+F 0 "SW3" H 7350 3285 50  0000 C CNN
+F 1 " " H 7350 3194 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 7350 3200 50  0001 C CNN
+F 3 "~" H 7350 3200 50  0001 C CNN
+	1    7350 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D3
+U 1 1 5D9763D1
+P 7550 3150
+F 0 "D3" V 7504 3230 50  0000 L CNN
+F 1 " " V 7595 3230 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 7550 3150 50  0001 C CNN
+F 3 "~" H 7550 3150 50  0001 C CNN
+F 4 "Y" H 7550 3150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7550 3150 50  0001 L CNN "Spice_Primitive"
+	1    7550 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5D9763D7
+P 7950 3000
+F 0 "SW4" H 7950 3285 50  0000 C CNN
+F 1 " " H 7950 3194 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 7950 3200 50  0001 C CNN
+F 3 "~" H 7950 3200 50  0001 C CNN
+	1    7950 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D4
+U 1 1 5D9763DF
+P 8150 3150
+F 0 "D4" V 8104 3230 50  0000 L CNN
+F 1 " " V 8195 3230 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 8150 3150 50  0001 C CNN
+F 3 "~" H 8150 3150 50  0001 C CNN
+F 4 "Y" H 8150 3150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8150 3150 50  0001 L CNN "Spice_Primitive"
+	1    8150 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5D98464B
+P 8550 3000
+F 0 "SW5" H 8550 3285 50  0000 C CNN
+F 1 " " H 8550 3194 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 8550 3200 50  0001 C CNN
+F 3 "~" H 8550 3200 50  0001 C CNN
+	1    8550 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D5
+U 1 1 5D984653
+P 8750 3150
+F 0 "D5" V 8704 3230 50  0000 L CNN
+F 1 " " V 8795 3230 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 8750 3150 50  0001 C CNN
+F 3 "~" H 8750 3150 50  0001 C CNN
+F 4 "Y" H 8750 3150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8750 3150 50  0001 L CNN "Spice_Primitive"
+	1    8750 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5D984659
+P 9150 3000
+F 0 "SW6" H 9150 3285 50  0000 C CNN
+F 1 " " H 9150 3194 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 9150 3200 50  0001 C CNN
+F 3 "~" H 9150 3200 50  0001 C CNN
+	1    9150 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D6
+U 1 1 5D984661
+P 9350 3150
+F 0 "D6" V 9304 3230 50  0000 L CNN
+F 1 " " V 9395 3230 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 9350 3150 50  0001 C CNN
+F 3 "~" H 9350 3150 50  0001 C CNN
+F 4 "Y" H 9350 3150 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9350 3150 50  0001 L CNN "Spice_Primitive"
+	1    9350 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5D99AFA7
+P 6150 3650
+F 0 "SW7" H 6150 3935 50  0000 C CNN
+F 1 " " H 6150 3844 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 6150 3850 50  0001 C CNN
+F 3 "~" H 6150 3850 50  0001 C CNN
+	1    6150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D7
+U 1 1 5D99AFAF
+P 6350 3800
+F 0 "D7" V 6304 3880 50  0000 L CNN
+F 1 " " V 6395 3880 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 6350 3800 50  0001 C CNN
+F 3 "~" H 6350 3800 50  0001 C CNN
+F 4 "Y" H 6350 3800 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6350 3800 50  0001 L CNN "Spice_Primitive"
+	1    6350 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5D99AFB5
+P 6750 3650
+F 0 "SW8" H 6750 3935 50  0000 C CNN
+F 1 " " H 6750 3844 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 6750 3850 50  0001 C CNN
+F 3 "~" H 6750 3850 50  0001 C CNN
+	1    6750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D8
+U 1 1 5D99AFBD
+P 6950 3800
+F 0 "D8" V 6904 3880 50  0000 L CNN
+F 1 " " V 6995 3880 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 6950 3800 50  0001 C CNN
+F 3 "~" H 6950 3800 50  0001 C CNN
+F 4 "Y" H 6950 3800 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6950 3800 50  0001 L CNN "Spice_Primitive"
+	1    6950 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5D99AFC3
+P 7350 3650
+F 0 "SW9" H 7350 3935 50  0000 C CNN
+F 1 " " H 7350 3844 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 7350 3850 50  0001 C CNN
+F 3 "~" H 7350 3850 50  0001 C CNN
+	1    7350 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D9
+U 1 1 5D99AFCB
+P 7550 3800
+F 0 "D9" V 7504 3880 50  0000 L CNN
+F 1 " " V 7595 3880 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 7550 3800 50  0001 C CNN
+F 3 "~" H 7550 3800 50  0001 C CNN
+F 4 "Y" H 7550 3800 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7550 3800 50  0001 L CNN "Spice_Primitive"
+	1    7550 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5D99AFD1
+P 7950 3650
+F 0 "SW10" H 7950 3935 50  0000 C CNN
+F 1 " " H 7950 3844 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 7950 3850 50  0001 C CNN
+F 3 "~" H 7950 3850 50  0001 C CNN
+	1    7950 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D10
+U 1 1 5D99AFD9
+P 8150 3800
+F 0 "D10" V 8104 3880 50  0000 L CNN
+F 1 " " V 8195 3880 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 8150 3800 50  0001 C CNN
+F 3 "~" H 8150 3800 50  0001 C CNN
+F 4 "Y" H 8150 3800 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8150 3800 50  0001 L CNN "Spice_Primitive"
+	1    8150 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5D99AFDF
+P 8550 3650
+F 0 "SW11" H 8550 3935 50  0000 C CNN
+F 1 " " H 8550 3844 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 8550 3850 50  0001 C CNN
+F 3 "~" H 8550 3850 50  0001 C CNN
+	1    8550 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D11
+U 1 1 5D99AFE7
+P 8750 3800
+F 0 "D11" V 8704 3880 50  0000 L CNN
+F 1 " " V 8795 3880 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 8750 3800 50  0001 C CNN
+F 3 "~" H 8750 3800 50  0001 C CNN
+F 4 "Y" H 8750 3800 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8750 3800 50  0001 L CNN "Spice_Primitive"
+	1    8750 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5D99AFED
+P 9150 3650
+F 0 "SW12" H 9150 3935 50  0000 C CNN
+F 1 " " H 9150 3844 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 9150 3850 50  0001 C CNN
+F 3 "~" H 9150 3850 50  0001 C CNN
+	1    9150 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D12
+U 1 1 5D99AFF5
+P 9350 3800
+F 0 "D12" V 9304 3880 50  0000 L CNN
+F 1 " " V 9395 3880 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 9350 3800 50  0001 C CNN
+F 3 "~" H 9350 3800 50  0001 C CNN
+F 4 "Y" H 9350 3800 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9350 3800 50  0001 L CNN "Spice_Primitive"
+	1    9350 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5D9AACB7
+P 6150 4300
+F 0 "SW13" H 6150 4585 50  0000 C CNN
+F 1 " " H 6150 4494 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 6150 4500 50  0001 C CNN
+F 3 "~" H 6150 4500 50  0001 C CNN
+	1    6150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D13
+U 1 1 5D9AACBF
+P 6350 4450
+F 0 "D13" V 6304 4530 50  0000 L CNN
+F 1 " " V 6395 4530 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 6350 4450 50  0001 C CNN
+F 3 "~" H 6350 4450 50  0001 C CNN
+F 4 "Y" H 6350 4450 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6350 4450 50  0001 L CNN "Spice_Primitive"
+	1    6350 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5D9AACC5
+P 6750 4300
+F 0 "SW14" H 6750 4585 50  0000 C CNN
+F 1 " " H 6750 4494 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 6750 4500 50  0001 C CNN
+F 3 "~" H 6750 4500 50  0001 C CNN
+	1    6750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D14
+U 1 1 5D9AACCD
+P 6950 4450
+F 0 "D14" V 6904 4530 50  0000 L CNN
+F 1 " " V 6995 4530 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 6950 4450 50  0001 C CNN
+F 3 "~" H 6950 4450 50  0001 C CNN
+F 4 "Y" H 6950 4450 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6950 4450 50  0001 L CNN "Spice_Primitive"
+	1    6950 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5D9AACD3
+P 7350 4300
+F 0 "SW15" H 7350 4585 50  0000 C CNN
+F 1 " " H 7350 4494 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 7350 4500 50  0001 C CNN
+F 3 "~" H 7350 4500 50  0001 C CNN
+	1    7350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D15
+U 1 1 5D9AACDB
+P 7550 4450
+F 0 "D15" V 7504 4530 50  0000 L CNN
+F 1 " " V 7595 4530 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 7550 4450 50  0001 C CNN
+F 3 "~" H 7550 4450 50  0001 C CNN
+F 4 "Y" H 7550 4450 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7550 4450 50  0001 L CNN "Spice_Primitive"
+	1    7550 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5D9AACE1
+P 7950 4300
+F 0 "SW16" H 7950 4585 50  0000 C CNN
+F 1 " " H 7950 4494 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 7950 4500 50  0001 C CNN
+F 3 "~" H 7950 4500 50  0001 C CNN
+	1    7950 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D16
+U 1 1 5D9AACE9
+P 8150 4450
+F 0 "D16" V 8104 4530 50  0000 L CNN
+F 1 " " V 8195 4530 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 8150 4450 50  0001 C CNN
+F 3 "~" H 8150 4450 50  0001 C CNN
+F 4 "Y" H 8150 4450 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8150 4450 50  0001 L CNN "Spice_Primitive"
+	1    8150 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5D9AACEF
+P 8550 4300
+F 0 "SW17" H 8550 4585 50  0000 C CNN
+F 1 " " H 8550 4494 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 8550 4500 50  0001 C CNN
+F 3 "~" H 8550 4500 50  0001 C CNN
+	1    8550 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D17
+U 1 1 5D9AACF7
+P 8750 4450
+F 0 "D17" V 8704 4530 50  0000 L CNN
+F 1 " " V 8795 4530 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 8750 4450 50  0001 C CNN
+F 3 "~" H 8750 4450 50  0001 C CNN
+F 4 "Y" H 8750 4450 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8750 4450 50  0001 L CNN "Spice_Primitive"
+	1    8750 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5D9AACFD
+P 9150 4300
+F 0 "SW18" H 9150 4585 50  0000 C CNN
+F 1 " " H 9150 4494 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 9150 4500 50  0001 C CNN
+F 3 "~" H 9150 4500 50  0001 C CNN
+	1    9150 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D18
+U 1 1 5D9AAD05
+P 9350 4450
+F 0 "D18" V 9304 4530 50  0000 L CNN
+F 1 " " V 9395 4530 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 9350 4450 50  0001 C CNN
+F 3 "~" H 9350 4450 50  0001 C CNN
+F 4 "Y" H 9350 4450 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9350 4450 50  0001 L CNN "Spice_Primitive"
+	1    9350 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5D9B9BA7
+P 6150 4950
+F 0 "SW19" H 6150 5235 50  0000 C CNN
+F 1 " " H 6150 5144 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 6150 5150 50  0001 C CNN
+F 3 "~" H 6150 5150 50  0001 C CNN
+	1    6150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D19
+U 1 1 5D9B9BAF
+P 6350 5100
+F 0 "D19" V 6304 5180 50  0000 L CNN
+F 1 " " V 6395 5180 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 6350 5100 50  0001 C CNN
+F 3 "~" H 6350 5100 50  0001 C CNN
+F 4 "Y" H 6350 5100 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6350 5100 50  0001 L CNN "Spice_Primitive"
+	1    6350 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5D9B9BB5
+P 6750 4950
+F 0 "SW20" H 6750 5235 50  0000 C CNN
+F 1 " " H 6750 5144 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 6750 5150 50  0001 C CNN
+F 3 "~" H 6750 5150 50  0001 C CNN
+	1    6750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D20
+U 1 1 5D9B9BBD
+P 6950 5100
+F 0 "D20" V 6904 5180 50  0000 L CNN
+F 1 " " V 6995 5180 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 6950 5100 50  0001 C CNN
+F 3 "~" H 6950 5100 50  0001 C CNN
+F 4 "Y" H 6950 5100 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6950 5100 50  0001 L CNN "Spice_Primitive"
+	1    6950 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5D9B9BC3
+P 7350 4950
+F 0 "SW21" H 7350 5235 50  0000 C CNN
+F 1 " " H 7350 5144 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 7350 5150 50  0001 C CNN
+F 3 "~" H 7350 5150 50  0001 C CNN
+	1    7350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D21
+U 1 1 5D9B9BCB
+P 7550 5100
+F 0 "D21" V 7504 5180 50  0000 L CNN
+F 1 " " V 7595 5180 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 7550 5100 50  0001 C CNN
+F 3 "~" H 7550 5100 50  0001 C CNN
+F 4 "Y" H 7550 5100 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7550 5100 50  0001 L CNN "Spice_Primitive"
+	1    7550 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5D9B9BD1
+P 7950 4950
+F 0 "SW22" H 7950 5235 50  0000 C CNN
+F 1 " " H 7950 5144 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 7950 5150 50  0001 C CNN
+F 3 "~" H 7950 5150 50  0001 C CNN
+	1    7950 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D22
+U 1 1 5D9B9BD9
+P 8150 5100
+F 0 "D22" V 8104 5180 50  0000 L CNN
+F 1 " " V 8195 5180 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 8150 5100 50  0001 C CNN
+F 3 "~" H 8150 5100 50  0001 C CNN
+F 4 "Y" H 8150 5100 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8150 5100 50  0001 L CNN "Spice_Primitive"
+	1    8150 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5D9B9BDF
+P 8550 4950
+F 0 "SW23" H 8550 5235 50  0000 C CNN
+F 1 " " H 8550 5144 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 8550 5150 50  0001 C CNN
+F 3 "~" H 8550 5150 50  0001 C CNN
+	1    8550 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D23
+U 1 1 5D9B9BE7
+P 8750 5100
+F 0 "D23" V 8704 5180 50  0000 L CNN
+F 1 " " V 8795 5180 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 8750 5100 50  0001 C CNN
+F 3 "~" H 8750 5100 50  0001 C CNN
+F 4 "Y" H 8750 5100 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8750 5100 50  0001 L CNN "Spice_Primitive"
+	1    8750 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5D9B9BED
+P 9150 4950
+F 0 "SW24" H 9150 5235 50  0000 C CNN
+F 1 " " H 9150 5144 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 9150 5150 50  0001 C CNN
+F 3 "~" H 9150 5150 50  0001 C CNN
+	1    9150 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D24
+U 1 1 5D9B9BF5
+P 9350 5100
+F 0 "D24" V 9304 5180 50  0000 L CNN
+F 1 " " V 9395 5180 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 9350 5100 50  0001 C CNN
+F 3 "~" H 9350 5100 50  0001 C CNN
+F 4 "Y" H 9350 5100 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9350 5100 50  0001 L CNN "Spice_Primitive"
+	1    9350 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 5D9C821D
+P 6150 5800
+F 0 "SW26" H 6150 6085 50  0000 C CNN
+F 1 " " H 6150 5994 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 6150 6000 50  0001 C CNN
+F 3 "~" H 6150 6000 50  0001 C CNN
+	1    6150 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D25
+U 1 1 5D9C8225
+P 6350 5950
+F 0 "D25" V 6304 6030 50  0000 L CNN
+F 1 " " V 6395 6030 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 6350 5950 50  0001 C CNN
+F 3 "~" H 6350 5950 50  0001 C CNN
+F 4 "Y" H 6350 5950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6350 5950 50  0001 L CNN "Spice_Primitive"
+	1    6350 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 5D9C822B
+P 6750 5800
+F 0 "SW27" H 6750 6085 50  0000 C CNN
+F 1 " " H 6750 5994 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 6750 6000 50  0001 C CNN
+F 3 "~" H 6750 6000 50  0001 C CNN
+	1    6750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D26
+U 1 1 5D9C8233
+P 6950 5950
+F 0 "D26" V 6904 6030 50  0000 L CNN
+F 1 " " V 6995 6030 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 6950 5950 50  0001 C CNN
+F 3 "~" H 6950 5950 50  0001 C CNN
+F 4 "Y" H 6950 5950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 6950 5950 50  0001 L CNN "Spice_Primitive"
+	1    6950 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 5D9C8239
+P 7350 5800
+F 0 "SW28" H 7350 6085 50  0000 C CNN
+F 1 " " H 7350 5994 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 7350 6000 50  0001 C CNN
+F 3 "~" H 7350 6000 50  0001 C CNN
+	1    7350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D27
+U 1 1 5D9C8241
+P 7550 5950
+F 0 "D27" V 7504 6030 50  0000 L CNN
+F 1 " " V 7595 6030 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 7550 5950 50  0001 C CNN
+F 3 "~" H 7550 5950 50  0001 C CNN
+F 4 "Y" H 7550 5950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 7550 5950 50  0001 L CNN "Spice_Primitive"
+	1    7550 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 5D9C8247
+P 7950 5800
+F 0 "SW29" H 7950 6085 50  0000 C CNN
+F 1 " " H 7950 5994 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 7950 6000 50  0001 C CNN
+F 3 "~" H 7950 6000 50  0001 C CNN
+	1    7950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D28
+U 1 1 5D9C824F
+P 8150 5950
+F 0 "D28" V 8104 6030 50  0000 L CNN
+F 1 " " V 8195 6030 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 8150 5950 50  0001 C CNN
+F 3 "~" H 8150 5950 50  0001 C CNN
+F 4 "Y" H 8150 5950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8150 5950 50  0001 L CNN "Spice_Primitive"
+	1    8150 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5D9C8255
+P 8550 5800
+F 0 "SW30" H 8550 6085 50  0000 C CNN
+F 1 " " H 8550 5994 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 8550 6000 50  0001 C CNN
+F 3 "~" H 8550 6000 50  0001 C CNN
+	1    8550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D29
+U 1 1 5D9C825D
+P 8750 5950
+F 0 "D29" V 8704 6030 50  0000 L CNN
+F 1 " " V 8795 6030 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 8750 5950 50  0001 C CNN
+F 3 "~" H 8750 5950 50  0001 C CNN
+F 4 "Y" H 8750 5950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8750 5950 50  0001 L CNN "Spice_Primitive"
+	1    8750 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5D9C8263
+P 9150 5800
+F 0 "SW31" H 9150 6085 50  0000 C CNN
+F 1 " " H 9150 5994 50  0000 C CNN
+F 2 "Switch_2_mat:2u" H 9150 6000 50  0001 C CNN
+F 3 "~" H 9150 6000 50  0001 C CNN
+	1    9150 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Simulation_SPICE:DIODE D30
+U 1 1 5D9C826B
+P 9350 5950
+F 0 "D30" V 9304 6030 50  0000 L CNN
+F 1 " " V 9395 6030 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Diode" H 9350 5950 50  0001 C CNN
+F 3 "~" H 9350 5950 50  0001 C CNN
+F 4 "Y" H 9350 5950 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 9350 5950 50  0001 L CNN "Spice_Primitive"
+	1    9350 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5DA00CCF
+P 9150 5600
+F 0 "SW25" H 9150 5885 50  0000 C CNN
+F 1 " " H 9150 5794 50  0000 C CNN
+F 2 "Switch_2_mat:1u" H 9150 5800 50  0001 C CNN
+F 3 "~" H 9150 5800 50  0001 C CNN
+	1    9150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q2
+U 1 1 5CB0E648
+P 10300 1850
+F 0 "Q2" H 10506 1896 50  0000 L CNN
+F 1 "2N7002" H 10506 1805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10500 1775 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 10300 1850 50  0001 L CNN
+	1    10300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint GND1
+U 1 1 5CA40042
+P 7850 900
+F 0 "GND1" H 7908 1018 50  0000 L CNN
+F 1 " " H 7908 927 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:TestPoint" H 8050 900 50  0001 C CNN
+F 3 "~" H 8050 900 50  0001 C CNN
+	1    7850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DB6CEFE
+P 6550 900
+F 0 "R1" H 6620 946 50  0000 L CNN
+F 1 "4K7" H 6620 855 50  0000 L CNN
+F 2 "Keebio:Resistor-Compact" V 6480 900 50  0001 C CNN
+F 3 "~" H 6550 900 50  0001 C CNN
+	1    6550 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5DB6DD10
+P 6850 900
+F 0 "R2" H 6920 946 50  0000 L CNN
+F 1 "4K7" H 6920 855 50  0000 L CNN
+F 2 "Keebio:Resistor-Compact" V 6780 900 50  0001 C CNN
+F 3 "~" H 6850 900 50  0001 C CNN
+	1    6850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint NO1
+U 1 1 5DB82B14
+P 7200 900
+F 0 "NO1" H 7258 1018 50  0000 L CNN
+F 1 " " H 7258 927 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:TestPoint" H 7400 900 50  0001 C CNN
+F 3 "~" H 7400 900 50  0001 C CNN
+	1    7200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push RST_2
+U 1 1 5DB62E23
+P 3550 1250
+F 0 "RST_2" H 3550 1535 50  0000 C CNN
+F 1 "RST" H 3550 1444 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:RST" H 3550 1450 50  0001 C CNN
+F 3 "~" H 3550 1450 50  0001 C CNN
+	1    3550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push RST_1
+U 1 1 5CA3473C
+P 3550 950
+F 0 "RST_1" H 3550 1235 50  0000 C CNN
+F 1 "RST" H 3550 1144 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:RST" H 3550 1150 50  0001 C CNN
+F 3 "~" H 3550 1150 50  0001 C CNN
+	1    3550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nyquist-rescue:ProMicro-promicro U1
+U 1 1 5CA2E795
+P 1900 1650
+F 0 "U1" H 1900 2793 60  0000 C CNN
+F 1 "ProMicro" H 1900 2687 60  0000 C CNN
+F 2 "Keebio:ArduinoProMicro" H 1900 2581 60  0000 C CNN
+F 3 "" H 2000 600 60  0000 C CNN
+	1    1900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nyquist-rescue:PJ-320-promicro p1
+U 1 1 5DBCEF8B
+P 5350 1050
+F 0 "p1" H 5628 1101 50  0000 L CNN
+F 1 "PJ-320" H 5628 1010 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:PJ_320" H 5250 1050 394 0001 C CNN
+F 3 "" H 5250 1050 394 0001 C CNN
+	1    5350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Nyquist-rescue:PJ-320-promicro p2
+U 1 1 5DBD02CF
+P 5350 1600
+F 0 "p2" H 5628 1651 50  0000 L CNN
+F 1 "PJ-320" H 5628 1560 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:PJ_320" H 5250 1600 394 0001 C CNN
+F 3 "" H 5250 1600 394 0001 C CNN
+	1    5350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5DC0C8EF
+P 1700 2750
+F 0 "R5" V 1493 2750 50  0000 C CNN
+F 1 " " V 1584 2750 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 2750 50  0001 C CNN
+F 3 "~" H 1700 2750 50  0001 C CNN
+	1    1700 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5DC0F3F7
+P 1700 2900
+F 0 "R7" V 1493 2900 50  0000 C CNN
+F 1 " " V 1584 2900 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 2900 50  0001 C CNN
+F 3 "~" H 1700 2900 50  0001 C CNN
+	1    1700 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5DC16C9B
+P 1700 3050
+F 0 "R9" V 1493 3050 50  0000 C CNN
+F 1 " " V 1584 3050 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 3050 50  0001 C CNN
+F 3 "~" H 1700 3050 50  0001 C CNN
+	1    1700 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5DC16CA2
+P 1700 3200
+F 0 "R11" V 1493 3200 50  0000 C CNN
+F 1 " " V 1584 3200 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 3200 50  0001 C CNN
+F 3 "~" H 1700 3200 50  0001 C CNN
+	1    1700 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5DC1E741
+P 1700 3350
+F 0 "R13" V 1493 3350 50  0000 C CNN
+F 1 " " V 1584 3350 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 3350 50  0001 C CNN
+F 3 "~" H 1700 3350 50  0001 C CNN
+	1    1700 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5DC1E748
+P 1700 3500
+F 0 "R15" V 1493 3500 50  0000 C CNN
+F 1 " " V 1584 3500 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 3500 50  0001 C CNN
+F 3 "~" H 1700 3500 50  0001 C CNN
+	1    1700 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5DC1E75B
+P 1700 3650
+F 0 "R17" V 1493 3650 50  0000 C CNN
+F 1 " " V 1584 3650 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 3650 50  0001 C CNN
+F 3 "~" H 1700 3650 50  0001 C CNN
+	1    1700 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5DC1E762
+P 1700 3800
+F 0 "R19" V 1493 3800 50  0000 C CNN
+F 1 " " V 1584 3800 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 3800 50  0001 C CNN
+F 3 "~" H 1700 3800 50  0001 C CNN
+	1    1700 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5DC23BE6
+P 1700 3950
+F 0 "R21" V 1493 3950 50  0000 C CNN
+F 1 " " V 1584 3950 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 3950 50  0001 C CNN
+F 3 "~" H 1700 3950 50  0001 C CNN
+	1    1700 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5DC23BED
+P 1700 4100
+F 0 "R23" V 1493 4100 50  0000 C CNN
+F 1 " " V 1584 4100 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 4100 50  0001 C CNN
+F 3 "~" H 1700 4100 50  0001 C CNN
+	1    1700 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5DC23C00
+P 1700 4250
+F 0 "R25" V 1493 4250 50  0000 C CNN
+F 1 " " V 1584 4250 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 4250 50  0001 C CNN
+F 3 "~" H 1700 4250 50  0001 C CNN
+	1    1700 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5DC23C07
+P 1700 4400
+F 0 "R27" V 1493 4400 50  0000 C CNN
+F 1 " " V 1584 4400 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 4400 50  0001 C CNN
+F 3 "~" H 1700 4400 50  0001 C CNN
+	1    1700 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5DC28227
+P 3000 2750
+F 0 "R6" V 2793 2750 50  0000 C CNN
+F 1 " " V 2884 2750 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 2750 50  0001 C CNN
+F 3 "~" H 3000 2750 50  0001 C CNN
+	1    3000 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5DC2822E
+P 3000 2900
+F 0 "R8" V 2793 2900 50  0000 C CNN
+F 1 " " V 2884 2900 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 2900 50  0001 C CNN
+F 3 "~" H 3000 2900 50  0001 C CNN
+	1    3000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5DC28241
+P 3000 3050
+F 0 "R10" V 2793 3050 50  0000 C CNN
+F 1 " " V 2884 3050 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 3050 50  0001 C CNN
+F 3 "~" H 3000 3050 50  0001 C CNN
+	1    3000 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5DC28248
+P 3000 3200
+F 0 "R12" V 2793 3200 50  0000 C CNN
+F 1 " " V 2884 3200 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 3200 50  0001 C CNN
+F 3 "~" H 3000 3200 50  0001 C CNN
+	1    3000 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5DC2C1C6
+P 3000 3350
+F 0 "R14" V 2793 3350 50  0000 C CNN
+F 1 " " V 2884 3350 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 3350 50  0001 C CNN
+F 3 "~" H 3000 3350 50  0001 C CNN
+	1    3000 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5DC2C1CD
+P 3000 3500
+F 0 "R16" V 2793 3500 50  0000 C CNN
+F 1 " " V 2884 3500 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 3500 50  0001 C CNN
+F 3 "~" H 3000 3500 50  0001 C CNN
+	1    3000 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5DC2C1E0
+P 3000 3650
+F 0 "R18" V 2793 3650 50  0000 C CNN
+F 1 " " V 2884 3650 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 3650 50  0001 C CNN
+F 3 "~" H 3000 3650 50  0001 C CNN
+	1    3000 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5DC2C1E7
+P 3000 3800
+F 0 "R20" V 2793 3800 50  0000 C CNN
+F 1 " " V 2884 3800 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 3800 50  0001 C CNN
+F 3 "~" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5DC31C7D
+P 3000 3950
+F 0 "R22" V 2793 3950 50  0000 C CNN
+F 1 " " V 2884 3950 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 3950 50  0001 C CNN
+F 3 "~" H 3000 3950 50  0001 C CNN
+	1    3000 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5DC31C84
+P 3000 4100
+F 0 "R24" V 2793 4100 50  0000 C CNN
+F 1 " " V 2884 4100 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 4100 50  0001 C CNN
+F 3 "~" H 3000 4100 50  0001 C CNN
+	1    3000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5DC31C97
+P 3000 4250
+F 0 "R26" V 2793 4250 50  0000 C CNN
+F 1 " " V 2884 4250 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 4250 50  0001 C CNN
+F 3 "~" H 3000 4250 50  0001 C CNN
+	1    3000 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5DC31C9E
+P 3000 4400
+F 0 "R28" V 2793 4400 50  0000 C CNN
+F 1 " " V 2884 4400 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 4400 50  0001 C CNN
+F 3 "~" H 3000 4400 50  0001 C CNN
+	1    3000 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 5DC38D6C
+P 3000 4550
+F 0 "R30" V 2793 4550 50  0000 C CNN
+F 1 " " V 2884 4550 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 4550 50  0001 C CNN
+F 3 "~" H 3000 4550 50  0001 C CNN
+	1    3000 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 5DC38D73
+P 3000 4700
+F 0 "R32" V 2793 4700 50  0000 C CNN
+F 1 " " V 2884 4700 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 4700 50  0001 C CNN
+F 3 "~" H 3000 4700 50  0001 C CNN
+	1    3000 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5DC38D86
+P 3000 4850
+F 0 "R34" V 2793 4850 50  0000 C CNN
+F 1 " " V 2884 4850 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 4850 50  0001 C CNN
+F 3 "~" H 3000 4850 50  0001 C CNN
+	1    3000 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 5DC38D8D
+P 3000 5000
+F 0 "R35" V 2793 5000 50  0000 C CNN
+F 1 " " V 2884 5000 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 2930 5000 50  0001 C CNN
+F 3 "~" H 3000 5000 50  0001 C CNN
+	1    3000 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 5DC3E2F1
+P 1700 4550
+F 0 "R29" V 1493 4550 50  0000 C CNN
+F 1 " " V 1584 4550 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 4550 50  0001 C CNN
+F 3 "~" H 1700 4550 50  0001 C CNN
+	1    1700 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 5DC3E2F8
+P 1700 4700
+F 0 "R31" V 1493 4700 50  0000 C CNN
+F 1 " " V 1584 4700 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 4700 50  0001 C CNN
+F 3 "~" H 1700 4700 50  0001 C CNN
+	1    1700 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 5DC3E30B
+P 1700 4850
+F 0 "R33" V 1493 4850 50  0000 C CNN
+F 1 " " V 1584 4850 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:R" V 1630 4850 50  0001 C CNN
+F 3 "~" H 1700 4850 50  0001 C CNN
+	1    1700 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D59
+U 1 1 5DCBC4AB
+P 2100 4850
+F 0 "D59" H 2093 5066 50  0000 C CNN
+F 1 " " H 2093 4975 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 4850 50  0001 C CNN
+F 3 "~" H 2100 4850 50  0001 C CNN
+	1    2100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D55
+U 1 1 5DCBC4B1
+P 2100 4550
+F 0 "D55" H 2093 4766 50  0000 C CNN
+F 1 " " H 2093 4675 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 4550 50  0001 C CNN
+F 3 "~" H 2100 4550 50  0001 C CNN
+	1    2100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D57
+U 1 1 5DCBC4B7
+P 2100 4700
+F 0 "D57" H 2093 4916 50  0000 C CNN
+F 1 " " H 2093 4825 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 4700 50  0001 C CNN
+F 3 "~" H 2100 4700 50  0001 C CNN
+	1    2100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D51
+U 1 1 5DCBC4BD
+P 2100 4250
+F 0 "D51" H 2093 4466 50  0000 C CNN
+F 1 " " H 2093 4375 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 4250 50  0001 C CNN
+F 3 "~" H 2100 4250 50  0001 C CNN
+	1    2100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D53
+U 1 1 5DCBC4C3
+P 2100 4400
+F 0 "D53" H 2093 4616 50  0000 C CNN
+F 1 " " H 2093 4525 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 4400 50  0001 C CNN
+F 3 "~" H 2100 4400 50  0001 C CNN
+	1    2100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D47
+U 1 1 5DCBC4C9
+P 2100 3950
+F 0 "D47" H 2093 4166 50  0000 C CNN
+F 1 " " H 2093 4075 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 3950 50  0001 C CNN
+F 3 "~" H 2100 3950 50  0001 C CNN
+	1    2100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D49
+U 1 1 5DCBC4CF
+P 2100 4100
+F 0 "D49" H 2093 4316 50  0000 C CNN
+F 1 " " H 2093 4225 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 4100 50  0001 C CNN
+F 3 "~" H 2100 4100 50  0001 C CNN
+	1    2100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D43
+U 1 1 5DCBC4D5
+P 2100 3650
+F 0 "D43" H 2093 3866 50  0000 C CNN
+F 1 " " H 2093 3775 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 3650 50  0001 C CNN
+F 3 "~" H 2100 3650 50  0001 C CNN
+	1    2100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D45
+U 1 1 5DCBC4DB
+P 2100 3800
+F 0 "D45" H 2093 4016 50  0000 C CNN
+F 1 " " H 2093 3925 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 3800 50  0001 C CNN
+F 3 "~" H 2100 3800 50  0001 C CNN
+	1    2100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D39
+U 1 1 5DCBC4E1
+P 2100 3350
+F 0 "D39" H 2093 3566 50  0000 C CNN
+F 1 " " H 2093 3475 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 3350 50  0001 C CNN
+F 3 "~" H 2100 3350 50  0001 C CNN
+	1    2100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D41
+U 1 1 5DCBC4E7
+P 2100 3500
+F 0 "D41" H 2093 3716 50  0000 C CNN
+F 1 " " H 2093 3625 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 3500 50  0001 C CNN
+F 3 "~" H 2100 3500 50  0001 C CNN
+	1    2100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D35
+U 1 1 5DCBC4ED
+P 2100 3050
+F 0 "D35" H 2093 3266 50  0000 C CNN
+F 1 " " H 2093 3175 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 3050 50  0001 C CNN
+F 3 "~" H 2100 3050 50  0001 C CNN
+	1    2100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D37
+U 1 1 5DCBC4F3
+P 2100 3200
+F 0 "D37" H 2093 3416 50  0000 C CNN
+F 1 " " H 2093 3325 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 3200 50  0001 C CNN
+F 3 "~" H 2100 3200 50  0001 C CNN
+	1    2100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D31
+U 1 1 5DCBC4F9
+P 2100 2750
+F 0 "D31" H 2093 2966 50  0000 C CNN
+F 1 " " H 2093 2875 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 2750 50  0001 C CNN
+F 3 "~" H 2100 2750 50  0001 C CNN
+	1    2100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D33
+U 1 1 5DCBC4FF
+P 2100 2900
+F 0 "D33" H 2093 3116 50  0000 C CNN
+F 1 " " H 2093 3025 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 2100 2900 50  0001 C CNN
+F 3 "~" H 2100 2900 50  0001 C CNN
+	1    2100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D60
+U 1 1 5DCC60E8
+P 3400 4850
+F 0 "D60" H 3393 5066 50  0000 C CNN
+F 1 " " H 3393 4975 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 4850 50  0001 C CNN
+F 3 "~" H 3400 4850 50  0001 C CNN
+	1    3400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D56
+U 1 1 5DCC60EE
+P 3400 4550
+F 0 "D56" H 3393 4766 50  0000 C CNN
+F 1 " " H 3393 4675 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 4550 50  0001 C CNN
+F 3 "~" H 3400 4550 50  0001 C CNN
+	1    3400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D58
+U 1 1 5DCC60F4
+P 3400 4700
+F 0 "D58" H 3393 4916 50  0000 C CNN
+F 1 " " H 3393 4825 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 4700 50  0001 C CNN
+F 3 "~" H 3400 4700 50  0001 C CNN
+	1    3400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D52
+U 1 1 5DCC60FA
+P 3400 4250
+F 0 "D52" H 3393 4466 50  0000 C CNN
+F 1 " " H 3393 4375 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 4250 50  0001 C CNN
+F 3 "~" H 3400 4250 50  0001 C CNN
+	1    3400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D54
+U 1 1 5DCC6100
+P 3400 4400
+F 0 "D54" H 3393 4616 50  0000 C CNN
+F 1 " " H 3393 4525 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 4400 50  0001 C CNN
+F 3 "~" H 3400 4400 50  0001 C CNN
+	1    3400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D48
+U 1 1 5DCC6106
+P 3400 3950
+F 0 "D48" H 3393 4166 50  0000 C CNN
+F 1 " " H 3393 4075 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 3950 50  0001 C CNN
+F 3 "~" H 3400 3950 50  0001 C CNN
+	1    3400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D50
+U 1 1 5DCC610C
+P 3400 4100
+F 0 "D50" H 3393 4316 50  0000 C CNN
+F 1 " " H 3393 4225 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 4100 50  0001 C CNN
+F 3 "~" H 3400 4100 50  0001 C CNN
+	1    3400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D44
+U 1 1 5DCC6112
+P 3400 3650
+F 0 "D44" H 3393 3866 50  0000 C CNN
+F 1 " " H 3393 3775 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 3650 50  0001 C CNN
+F 3 "~" H 3400 3650 50  0001 C CNN
+	1    3400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D46
+U 1 1 5DCC6118
+P 3400 3800
+F 0 "D46" H 3393 4016 50  0000 C CNN
+F 1 " " H 3393 3925 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 3800 50  0001 C CNN
+F 3 "~" H 3400 3800 50  0001 C CNN
+	1    3400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D40
+U 1 1 5DCC611E
+P 3400 3350
+F 0 "D40" H 3393 3566 50  0000 C CNN
+F 1 " " H 3393 3475 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 3350 50  0001 C CNN
+F 3 "~" H 3400 3350 50  0001 C CNN
+	1    3400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D42
+U 1 1 5DCC6124
+P 3400 3500
+F 0 "D42" H 3393 3716 50  0000 C CNN
+F 1 " " H 3393 3625 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 3500 50  0001 C CNN
+F 3 "~" H 3400 3500 50  0001 C CNN
+	1    3400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D36
+U 1 1 5DCC612A
+P 3400 3050
+F 0 "D36" H 3393 3266 50  0000 C CNN
+F 1 " " H 3393 3175 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 3050 50  0001 C CNN
+F 3 "~" H 3400 3050 50  0001 C CNN
+	1    3400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D38
+U 1 1 5DCC6130
+P 3400 3200
+F 0 "D38" H 3393 3416 50  0000 C CNN
+F 1 " " H 3393 3325 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 3200 50  0001 C CNN
+F 3 "~" H 3400 3200 50  0001 C CNN
+	1    3400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D32
+U 1 1 5DCC6136
+P 3400 2750
+F 0 "D32" H 3393 2966 50  0000 C CNN
+F 1 " " H 3393 2875 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 2750 50  0001 C CNN
+F 3 "~" H 3400 2750 50  0001 C CNN
+	1    3400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D34
+U 1 1 5DCC613C
+P 3400 2900
+F 0 "D34" H 3393 3116 50  0000 C CNN
+F 1 " " H 3393 3025 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 2900 50  0001 C CNN
+F 3 "~" H 3400 2900 50  0001 C CNN
+	1    3400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D61
+U 1 1 5DCCEBDF
+P 3400 5000
+F 0 "D61" H 3393 5216 50  0000 C CNN
+F 1 " " H 3393 5125 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:LED_3MM" H 3400 5000 50  0001 C CNN
+F 3 "~" H 3400 5000 50  0001 C CNN
+	1    3400 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2400 3550 2750
+Connection ~ 3550 4850
+Wire Wire Line
+	3550 4850 3550 5000
+Connection ~ 3550 2750
+Wire Wire Line
+	3550 2750 3550 2900
+Connection ~ 3550 2900
+Wire Wire Line
+	3550 2900 3550 3050
+Connection ~ 3550 3050
+Wire Wire Line
+	3550 3050 3550 3200
+Connection ~ 3550 3200
+Wire Wire Line
+	3550 3200 3550 3350
+Connection ~ 3550 3350
+Wire Wire Line
+	3550 3350 3550 3500
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3500 3550 3650
+Connection ~ 3550 3650
+Wire Wire Line
+	3550 3650 3550 3800
+Connection ~ 3550 3800
+Wire Wire Line
+	3550 3800 3550 3950
+Connection ~ 3550 3950
+Wire Wire Line
+	3550 3950 3550 4100
+Connection ~ 3550 4100
+Wire Wire Line
+	3550 4100 3550 4250
+Connection ~ 3550 4250
+Wire Wire Line
+	3550 4250 3550 4400
+Connection ~ 3550 4400
+Wire Wire Line
+	3550 4400 3550 4550
+Connection ~ 3550 4550
+Wire Wire Line
+	3550 4550 3550 4700
+Connection ~ 3550 4700
+Wire Wire Line
+	3550 4700 3550 4850
+Wire Wire Line
+	2250 2400 2250 2750
+Connection ~ 2250 2750
+Wire Wire Line
+	2250 2750 2250 2900
+Connection ~ 2250 4700
+Wire Wire Line
+	2250 4700 2250 4850
+Connection ~ 2250 2900
+Wire Wire Line
+	2250 2900 2250 3050
+Connection ~ 2250 3050
+Wire Wire Line
+	2250 3050 2250 3200
+Connection ~ 2250 3200
+Wire Wire Line
+	2250 3200 2250 3350
+Connection ~ 2250 3350
+Wire Wire Line
+	2250 3350 2250 3500
+Connection ~ 2250 3500
+Wire Wire Line
+	2250 3500 2250 3650
+Connection ~ 2250 3650
+Wire Wire Line
+	2250 3650 2250 3800
+Connection ~ 2250 3800
+Wire Wire Line
+	2250 3800 2250 3950
+Connection ~ 2250 3950
+Wire Wire Line
+	2250 3950 2250 4100
+Connection ~ 2250 4100
+Wire Wire Line
+	2250 4100 2250 4250
+Connection ~ 2250 4250
+Wire Wire Line
+	2250 4250 2250 4400
+Connection ~ 2250 4400
+Wire Wire Line
+	2250 4400 2250 4550
+Connection ~ 2250 4550
+Wire Wire Line
+	2250 4550 2250 4700
+$Comp
+L power:VCC #PWR0104
+U 1 1 5DA191C2
+P 4700 900
+F 0 "#PWR0104" H 4700 750 50  0001 C CNN
+F 1 "VCC" H 4717 1073 50  0000 C CNN
+F 2 "" H 4700 900 50  0001 C CNN
+F 3 "" H 4700 900 50  0001 C CNN
+	1    4700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5DA19603
+P 4700 1200
+F 0 "#PWR0105" H 4700 950 50  0001 C CNN
+F 1 "GND" H 4705 1027 50  0000 C CNN
+F 2 "" H 4700 1200 50  0001 C CNN
+F 3 "" H 4700 1200 50  0001 C CNN
+	1    4700 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 1000 0    50   Input ~ 0
+data
+Text GLabel 4700 1100 0    50   Input ~ 0
+xdata
+Wire Wire Line
+	8800 750  8950 750 
+$Comp
+L power:VCC #PWR0108
+U 1 1 5DA20E73
+P 8950 750
+F 0 "#PWR0108" H 8950 600 50  0001 C CNN
+F 1 "VCC" H 8967 923 50  0000 C CNN
+F 2 "" H 8950 750 50  0001 C CNN
+F 3 "" H 8950 750 50  0001 C CNN
+	1    8950 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 8950 750 
+Wire Wire Line
+	8950 750  9100 750 
+Text GLabel 9100 1050 3    50   Input ~ 0
+data
+Text GLabel 8800 1050 3    50   Input ~ 0
+xdata
+$Comp
+L Device:R R36
+U 1 1 5DA20E7D
+P 8800 900
+F 0 "R36" H 8870 946 50  0000 L CNN
+F 1 "4K7" H 8870 855 50  0000 L CNN
+F 2 "Keebio:Resistor-Compact" V 8730 900 50  0001 C CNN
+F 3 "~" H 8800 900 50  0001 C CNN
+	1    8800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 5DA20E83
+P 9100 900
+F 0 "R37" H 9170 946 50  0000 L CNN
+F 1 "4K7" H 9170 855 50  0000 L CNN
+F 2 "Keebio:Resistor-Compact" V 9030 900 50  0001 C CNN
+F 3 "~" H 9100 900 50  0001 C CNN
+	1    9100 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 900  3    50   Input ~ 0
+xdata
+$Comp
+L Connector:TestPoint NO2
+U 1 1 5DA3AE1D
+P 7500 900
+F 0 "NO2" H 7558 1018 50  0000 L CNN
+F 1 " " H 7558 927 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:TestPoint" H 7700 900 50  0001 C CNN
+F 3 "~" H 7700 900 50  0001 C CNN
+	1    7500 900 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

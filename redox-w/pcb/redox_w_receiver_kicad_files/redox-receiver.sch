@@ -1,0 +1,483 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Redox-W Receiver"
+Date "2018-12-25"
+Rev "2.0"
+Comp "Mattia Dal Ben"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L redox-receiver-rescue:Core51822B-core51822b uC1
+U 1 1 5C0CD87A
+P 1950 1500
+F 0 "uC1" H 1950 1500 60  0000 C CNN
+F 1 "YJ-14015" H 1950 1400 60  0000 C CNN
+F 2 "lib:MY-YJ-14015-Module" H 1950 1600 60  0001 C CNN
+F 3 "" H 1950 1600 60  0001 C CNN
+	1    1950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST RESET1
+U 1 1 5C0CF608
+P 2950 3200
+F 0 "RESET1" V 2904 3298 50  0000 L CNN
+F 1 "SW_SPST" V 2995 3298 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2950 3200 50  0001 C CNN
+F 3 "" H 2950 3200 50  0001 C CNN
+	1    2950 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 PROGR_HEADER1
+U 1 1 5C0D3AC1
+P 4100 1100
+F 0 "PROGR_HEADER1" H 4179 1092 50  0000 L CNN
+F 1 " " H 4179 1001 50  0000 L CNN
+F 2 "redox_w_receiver_footprints:conn_04" H 4100 1100 50  0001 C CNN
+F 3 "~" H 4100 1100 50  0001 C CNN
+	1    4100 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 1400 2    50   Input ~ 0
+SWCLK
+Text GLabel 2900 1500 2    50   Input ~ 0
+SWDIO
+Text GLabel 1000 1400 0    50   Input ~ 0
+RXI
+Text GLabel 1000 1500 0    50   Input ~ 0
+TXODIV
+$Comp
+L power:VCC #PWR0101
+U 1 1 5C0D41D9
+P 1000 2100
+F 0 "#PWR0101" H 1000 1950 50  0001 C CNN
+F 1 "VCC" V 1018 2227 50  0000 L CNN
+F 2 "" H 1000 2100 50  0001 C CNN
+F 3 "" H 1000 2100 50  0001 C CNN
+	1    1000 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5C0D429A
+P 1000 2000
+F 0 "#PWR0102" H 1000 1750 50  0001 C CNN
+F 1 "GND" V 1005 1872 50  0000 R CNN
+F 2 "" H 1000 2000 50  0001 C CNN
+F 3 "" H 1000 2000 50  0001 C CNN
+	1    1000 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5C0D42F2
+P 1000 1000
+F 0 "#PWR0103" H 1000 750 50  0001 C CNN
+F 1 "GND" V 1005 872 50  0000 R CNN
+F 2 "" H 1000 1000 50  0001 C CNN
+F 3 "" H 1000 1000 50  0001 C CNN
+	1    1000 1000
+	0    1    1    0   
+$EndComp
+NoConn ~ 1000 1100
+NoConn ~ 1000 1200
+NoConn ~ 1000 1300
+NoConn ~ 1000 1600
+NoConn ~ 1000 1700
+NoConn ~ 1000 1800
+NoConn ~ 1000 1900
+NoConn ~ 1400 2550
+NoConn ~ 1500 2550
+NoConn ~ 1600 2550
+NoConn ~ 1700 2550
+NoConn ~ 1800 2550
+NoConn ~ 1900 2550
+NoConn ~ 2000 2550
+NoConn ~ 2100 2550
+NoConn ~ 2200 2550
+NoConn ~ 2300 2550
+NoConn ~ 2400 2550
+NoConn ~ 2500 2550
+NoConn ~ 2900 2100
+NoConn ~ 2900 2000
+NoConn ~ 2900 1900
+NoConn ~ 2900 1800
+NoConn ~ 2900 1700
+NoConn ~ 2900 1600
+NoConn ~ 2900 1300
+NoConn ~ 2900 1200
+NoConn ~ 2900 1100
+NoConn ~ 2900 1000
+$Comp
+L power:VCC #PWR0104
+U 1 1 5C0D4C6D
+P 3900 1000
+F 0 "#PWR0104" H 3900 850 50  0001 C CNN
+F 1 "VCC" V 3918 1127 50  0000 L CNN
+F 2 "" H 3900 1000 50  0001 C CNN
+F 3 "" H 3900 1000 50  0001 C CNN
+	1    3900 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5C0D4CCC
+P 3900 1100
+F 0 "#PWR0105" H 3900 850 50  0001 C CNN
+F 1 "GND" V 3905 972 50  0000 R CNN
+F 2 "" H 3900 1100 50  0001 C CNN
+F 3 "" H 3900 1100 50  0001 C CNN
+	1    3900 1100
+	0    1    1    0   
+$EndComp
+Text GLabel 3900 1300 0    50   Input ~ 0
+SWCLK
+Text GLabel 3900 1200 0    50   Input ~ 0
+SWDIO
+Text GLabel 8875 825  0    50   Input ~ 0
+TXO
+Text GLabel 8875 925  0    50   Input ~ 0
+RXI
+$Comp
+L power:GND #PWR0106
+U 1 1 5C0D4F24
+P 8875 1025
+F 0 "#PWR0106" H 8875 775 50  0001 C CNN
+F 1 "GND" V 8880 897 50  0000 R CNN
+F 2 "" H 8875 1025 50  0001 C CNN
+F 3 "" H 8875 1025 50  0001 C CNN
+	1    8875 1025
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5C0D4FA0
+P 8875 1125
+F 0 "#PWR0107" H 8875 875 50  0001 C CNN
+F 1 "GND" V 8880 997 50  0000 R CNN
+F 2 "" H 8875 1125 50  0001 C CNN
+F 3 "" H 8875 1125 50  0001 C CNN
+	1    8875 1125
+	0    1    1    0   
+$EndComp
+Text GLabel 8875 1225 0    50   Input ~ 0
+G_LED
+Text GLabel 8875 1325 0    50   Input ~ 0
+C_LED
+Text GLabel 10275 825  2    50   Input ~ 0
+VIN
+Text GLabel 10275 1025 2    50   Input ~ 0
+RST
+Text GLabel 10275 1125 2    50   Input ~ 0
+5V0
+Text GLabel 10275 1225 2    50   Input ~ 0
+B_LED
+Text GLabel 10275 1325 2    50   Input ~ 0
+R_LED
+$Comp
+L power:GND #PWR0108
+U 1 1 5C0D50C5
+P 10275 925
+F 0 "#PWR0108" H 10275 675 50  0001 C CNN
+F 1 "GND" V 10280 797 50  0000 R CNN
+F 2 "" H 10275 925 50  0001 C CNN
+F 3 "" H 10275 925 50  0001 C CNN
+	1    10275 925 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1550 3150 0    50   Input ~ 0
+VIN
+$Comp
+L power:VCC #PWR0109
+U 1 1 5C0D534F
+P 2150 3150
+F 0 "#PWR0109" H 2150 3000 50  0001 C CNN
+F 1 "VCC" V 2167 3278 50  0000 L CNN
+F 2 "" H 2150 3150 50  0001 C CNN
+F 3 "" H 2150 3150 50  0001 C CNN
+	1    2150 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5C0D5406
+P 1850 3450
+F 0 "#PWR0110" H 1850 3200 50  0001 C CNN
+F 1 "GND" H 1855 3277 50  0000 C CNN
+F 2 "" H 1850 3450 50  0001 C CNN
+F 3 "" H 1850 3450 50  0001 C CNN
+	1    1850 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 3000 0    50   Input ~ 0
+RST
+Wire Wire Line
+	2850 3000 2950 3000
+$Comp
+L power:GND #PWR0111
+U 1 1 5C0D5787
+P 2950 3400
+F 0 "#PWR0111" H 2950 3150 50  0001 C CNN
+F 1 "GND" H 2955 3227 50  0000 C CNN
+F 2 "" H 2950 3400 50  0001 C CNN
+F 3 "" H 2950 3400 50  0001 C CNN
+	1    2950 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2100 5100 2000
+Text GLabel 3850 2950 0    50   Input ~ 0
+TXO
+Text GLabel 3850 3500 0    50   Input ~ 0
+TXODIV
+$Comp
+L power:GND #PWR0112
+U 1 1 5C0D66B7
+P 4150 3900
+F 0 "#PWR0112" H 4150 3650 50  0001 C CNN
+F 1 "GND" H 4155 3727 50  0000 C CNN
+F 2 "" H 4150 3900 50  0001 C CNN
+F 3 "" H 4150 3900 50  0001 C CNN
+	1    4150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C0D6951
+P 4000 3250
+F 0 "R1" H 4070 3296 50  0000 L CNN
+F 1 "R" H 4070 3205 50  0000 L CNN
+F 2 "redox_w_receiver_footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3930 3250 50  0001 C CNN
+F 3 "~" H 4000 3250 50  0001 C CNN
+	1    4000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C0D69A3
+P 4300 3250
+F 0 "R3" H 4370 3296 50  0000 L CNN
+F 1 "R" H 4370 3205 50  0000 L CNN
+F 2 "redox_w_receiver_footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4230 3250 50  0001 C CNN
+F 3 "~" H 4300 3250 50  0001 C CNN
+	1    4300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C0D69D3
+P 4150 3750
+F 0 "R2" H 4220 3796 50  0000 L CNN
+F 1 "R" H 4220 3705 50  0000 L CNN
+F 2 "redox_w_receiver_footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 3750 50  0001 C CNN
+F 3 "~" H 4150 3750 50  0001 C CNN
+	1    4150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2950 4000 2950
+Wire Wire Line
+	4300 2950 4300 3100
+Wire Wire Line
+	4000 3100 4000 2950
+Connection ~ 4000 2950
+Wire Wire Line
+	4000 2950 4300 2950
+Wire Wire Line
+	3850 3500 4000 3500
+Wire Wire Line
+	4150 3500 4150 3600
+Wire Wire Line
+	4000 3400 4000 3500
+Connection ~ 4000 3500
+Wire Wire Line
+	4000 3500 4150 3500
+Wire Wire Line
+	4300 3400 4300 3500
+Wire Wire Line
+	4300 3500 4150 3500
+Connection ~ 4150 3500
+Wire Wire Line
+	5100 2400 5100 2450
+$Comp
+L fruitkey:ProMicro U1
+U 1 1 5F01A2A0
+P 9575 1575
+F 0 "U1" H 9575 2612 60  0000 C CNN
+F 1 "ProMicro" H 9575 2506 60  0000 C CNN
+F 2 "redox_w_receiver_footprints:pro micro" H 9575 925 60  0001 C CNN
+F 3 "" H 9675 525 60  0001 C CNN
+	1    9575 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5F039107
+P 5900 1100
+F 0 "J1" H 5980 1092 50  0000 L CNN
+F 1 " " H 5980 1001 50  0000 L CNN
+F 2 "fruitkey:OLED_0.91'_FONTSIDE" H 5900 1100 50  0001 C CNN
+F 3 "~" H 5900 1100 50  0001 C CNN
+	1    5900 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 1100 0    50   Input ~ 0
+5V0
+$Comp
+L power:GND #PWR0113
+U 1 1 5F03FD2F
+P 5700 1000
+F 0 "#PWR0113" H 5700 750 50  0001 C CNN
+F 1 "GND" V 5705 872 50  0000 R CNN
+F 2 "" H 5700 1000 50  0001 C CNN
+F 3 "" H 5700 1000 50  0001 C CNN
+	1    5700 1000
+	0    1    1    0   
+$EndComp
+Text GLabel 5700 1300 0    50   Input ~ 0
+G_LED
+Text GLabel 5700 1200 0    50   Input ~ 0
+C_LED
+Wire Wire Line
+	6450 2400 6450 2450
+Text GLabel 6450 2750 3    50   Input ~ 0
+C_LED
+$Comp
+L Device:R R8
+U 1 1 5C0D163A
+P 6450 2600
+F 0 "R8" H 6520 2646 50  0000 L CNN
+F 1 "R" H 6520 2555 50  0000 L CNN
+F 2 "redox_w_receiver_footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 2600 50  0001 C CNN
+F 3 "~" H 6450 2600 50  0001 C CNN
+	1    6450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2000 6000 2000
+Connection ~ 5800 2000
+Wire Wire Line
+	5800 1900 5800 2000
+Connection ~ 6000 2000
+Wire Wire Line
+	6450 2000 6450 2100
+Wire Wire Line
+	6000 2000 6450 2000
+Connection ~ 5550 2000
+Wire Wire Line
+	5550 2000 5800 2000
+Wire Wire Line
+	5100 2000 5550 2000
+$Comp
+L Device:LED D4
+U 1 1 5C0D0BEF
+P 6450 2250
+F 0 "D4" V 6488 2133 50  0000 R CNN
+F 1 "LED" V 6397 2133 50  0000 R CNN
+F 2 "redox_w_receiver_footprints:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6450 2250 50  0001 C CNN
+F 3 "~" H 6450 2250 50  0001 C CNN
+	1    6450 2250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6000 2750 3    50   Input ~ 0
+G_LED
+Text GLabel 5550 2750 3    50   Input ~ 0
+B_LED
+Text GLabel 5100 2750 3    50   Input ~ 0
+R_LED
+Wire Wire Line
+	6000 2400 6000 2450
+Wire Wire Line
+	5550 2400 5550 2450
+$Comp
+L Device:R R7
+U 1 1 5C0D727A
+P 6000 2600
+F 0 "R7" H 6070 2646 50  0000 L CNN
+F 1 "R" H 6070 2555 50  0000 L CNN
+F 2 "redox_w_receiver_footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5930 2600 50  0001 C CNN
+F 3 "~" H 6000 2600 50  0001 C CNN
+	1    6000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C0D723C
+P 5550 2600
+F 0 "R6" H 5620 2646 50  0000 L CNN
+F 1 "R" H 5620 2555 50  0000 L CNN
+F 2 "redox_w_receiver_footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5480 2600 50  0001 C CNN
+F 3 "~" H 5550 2600 50  0001 C CNN
+	1    5550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C0D71CA
+P 5100 2600
+F 0 "R4" H 5170 2646 50  0000 L CNN
+F 1 "R" H 5170 2555 50  0000 L CNN
+F 2 "redox_w_receiver_footprints:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 2600 50  0001 C CNN
+F 3 "~" H 5100 2600 50  0001 C CNN
+	1    5100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2000 6000 2100
+Wire Wire Line
+	5550 2000 5550 2100
+$Comp
+L Device:LED D3
+U 1 1 5C0CF9C8
+P 6000 2250
+F 0 "D3" V 6038 2133 50  0000 R CNN
+F 1 "LED" V 5947 2133 50  0000 R CNN
+F 2 "redox_w_receiver_footprints:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 2250 50  0001 C CNN
+F 3 "~" H 6000 2250 50  0001 C CNN
+	1    6000 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5C0CF909
+P 5550 2250
+F 0 "D2" V 5588 2133 50  0000 R CNN
+F 1 "LED" V 5497 2133 50  0000 R CNN
+F 2 "redox_w_receiver_footprints:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5550 2250 50  0001 C CNN
+F 3 "~" H 5550 2250 50  0001 C CNN
+	1    5550 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5C0CF77A
+P 5100 2250
+F 0 "D1" V 5138 2133 50  0000 R CNN
+F 1 "LED" V 5047 2133 50  0000 R CNN
+F 2 "redox_w_receiver_footprints:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5100 2250 50  0001 C CNN
+F 3 "~" H 5100 2250 50  0001 C CNN
+	1    5100 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fruitkey:CJA1117B-3.3V U2
+U 1 1 5F05B412
+P 1850 3250
+F 0 "U2" H 1850 3575 50  0000 C CNN
+F 1 "CJA1117B-3.3V" H 1850 3484 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2100 3150 50  0001 C CNN
+F 3 "" H 2100 3150 50  0001 C CNN
+	1    1850 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 1900 1    50   Input ~ 0
+5V0
+$EndSCHEMATC

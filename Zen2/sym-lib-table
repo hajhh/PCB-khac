@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Zen2-rescue)(type Legacy)(uri ${KIPRJMOD}/Zen2-rescue.lib)(options "")(descr ""))
+)

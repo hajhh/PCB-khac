@@ -1,0 +1,8 @@
+### Module positions - created on 08/24/18 23:45:19 ###
+### Printed by Pcbnew version kicad 4.0.7
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val           Package                    PosX       PosY       Rot  Side
+R1        250R          R_0805_HandSoldering   171.0000  -105.0000    0.0000  top
+U1        STF202-22T1G  STF202-22T1G           158.2000  -103.4000  270.0000  top
+## End

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Sol)(type KiCad)(uri ${KIPRJMOD}/Sol.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,7 @@
+* [Getting Started](readme.md)
+  * [Build Instructions](BuildInstructions.md)
+  * [Troubleshooting Guide](Troubleshooting_steps.md)
+  * [Choosing a Layout or Keycaps](ChoosingLayoutandKeycaps.md)
+  * [Ordering Instructions](OrderingInstructions.md)
+  * [Installing RGB Underglow strips](InstallingRGBStrips.md)
+  * [Handwiring an extra key](InstallingExtraKey.md)

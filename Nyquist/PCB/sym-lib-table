@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Nyquist-rescue)(type Legacy)(uri ${KIPRJMOD}/Nyquist-rescue.lib)(options "")(descr ""))
+)

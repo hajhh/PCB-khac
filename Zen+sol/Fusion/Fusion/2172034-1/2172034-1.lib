@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 2172034-1
+#
+DEF 2172034-1 J 0 40 Y Y 1 L N
+F0 "J" -301 326 50 H V L BNN
+F1 "2172034-1" -301 -401 50 H V L BNN
+F2 "TE_2172034-1" 0 0 50 H I L BNN
+F3 "2172034-1" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2172034-1/A135698-ND/5592056?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "A135698-ND" 0 0 50 H I L BNN
+F7 "Compliant" 0 0 50 H I L BNN
+F8 "TE Connectivity" 0 0 50 H I L BNN
+F9 "http://www.te.com/usa-en/product-2172034-1.html" 0 0 50 H I L BNN
+F10 "Conn Mini USB Type B RCP 5 POS 0.8mm Solder RA Thru-Hole 5 Terminal 1 Port Box/Tray" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -300 -300 -300 300 N
+P 2 0 0 10 -300 300 300 300 N
+P 2 0 0 10 -300 -300 300 -300 N
+P 2 0 0 10 300 300 300 -300 N
+X VBUS 1 500 200 200 L 40 40 0 0 W 
+X D 2 -500 -100 200 R 40 40 0 0 B 
+X D+ 3 -500 100 200 R 40 40 0 0 B 
+X ID 4 500 100 200 L 40 40 0 0 P 
+X GND 5 500 -200 200 L 40 40 0 0 W 
+X SHELL SH1 500 -100 200 L 40 40 0 0 W 
+X SHELL SH2 500 -100 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

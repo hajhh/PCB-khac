@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name kyria)(type KiCad)(uri ${KIPRJMOD}/kyria.pretty)(options "")(descr ""))
+)

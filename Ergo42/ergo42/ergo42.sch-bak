@@ -1,0 +1,1136 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L promicro:ProMicro U1
+U 1 1 5E55FE16
+P 1550 2100
+F 0 "U1" H 1550 3243 60  0000 C CNN
+F 1 "ProMicro" H 1550 3137 60  0000 C CNN
+F 2 "ARDUINO PRO MICRO:Pro Micro _back" H 1550 3031 60  0000 C CNN
+F 3 "" H 1650 1050 60  0000 C CNN
+	1    1550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5E560CC6
+P 1000 3650
+F 0 "SW3" H 1000 3935 50  0000 C CNN
+F 1 " " H 1000 3844 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 1000 3850 50  0001 C CNN
+F 3 "~" H 1000 3850 50  0001 C CNN
+	1    1000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5E56127D
+P 1200 3800
+F 0 "D1" V 1246 3721 50  0000 R CNN
+F 1 " " V 1155 3721 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 1200 3800 50  0001 C CNN
+F 3 "~" H 1200 3800 50  0001 C CNN
+	1    1200 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5E562366
+P 1000 4300
+F 0 "SW17" H 1000 4585 50  0000 C CNN
+F 1 " " H 1000 4494 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 1000 4500 50  0001 C CNN
+F 3 "~" H 1000 4500 50  0001 C CNN
+	1    1000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5E56236C
+P 1800 4450
+F 0 "D15" V 1846 4371 50  0000 R CNN
+F 1 " " V 1755 4371 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 1800 4450 50  0001 C CNN
+F 3 "~" H 1800 4450 50  0001 C CNN
+	1    1800 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5E563A6A
+P 1000 4950
+F 0 "SW31" H 1000 5235 50  0000 C CNN
+F 1 " " H 1000 5144 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 1000 5150 50  0001 C CNN
+F 3 "~" H 1000 5150 50  0001 C CNN
+	1    1000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5E563A70
+P 1200 5100
+F 0 "D29" V 1246 5021 50  0000 R CNN
+F 1 " " V 1155 5021 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 1200 5100 50  0001 C CNN
+F 3 "~" H 1200 5100 50  0001 C CNN
+	1    1200 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 5E563A76
+P 1000 5600
+F 0 "SW45" H 1000 5885 50  0000 C CNN
+F 1 " " H 1000 5794 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 1000 5800 50  0001 C CNN
+F 3 "~" H 1000 5800 50  0001 C CNN
+	1    1000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5E563A7C
+P 1200 5750
+F 0 "D43" V 1246 5671 50  0000 R CNN
+F 1 " " V 1155 5671 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 1200 5750 50  0001 C CNN
+F 3 "~" H 1200 5750 50  0001 C CNN
+	1    1200 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5E568826
+P 1600 3650
+F 0 "SW4" H 1600 3935 50  0000 C CNN
+F 1 " " H 1600 3844 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 1600 3850 50  0001 C CNN
+F 3 "~" H 1600 3850 50  0001 C CNN
+	1    1600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5E56882C
+P 1800 3800
+F 0 "D2" V 1846 3721 50  0000 R CNN
+F 1 " " V 1755 3721 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 1800 3800 50  0001 C CNN
+F 3 "~" H 1800 3800 50  0001 C CNN
+	1    1800 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5E568832
+P 1600 4300
+F 0 "SW18" H 1600 4585 50  0000 C CNN
+F 1 " " H 1600 4494 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 1600 4500 50  0001 C CNN
+F 3 "~" H 1600 4500 50  0001 C CNN
+	1    1600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5E568838
+P 1200 4450
+F 0 "D16" V 1246 4371 50  0000 R CNN
+F 1 " " V 1155 4371 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 1200 4450 50  0001 C CNN
+F 3 "~" H 1200 4450 50  0001 C CNN
+	1    1200 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5E56883E
+P 1600 4950
+F 0 "SW32" H 1600 5235 50  0000 C CNN
+F 1 " " H 1600 5144 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 1600 5150 50  0001 C CNN
+F 3 "~" H 1600 5150 50  0001 C CNN
+	1    1600 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5E568844
+P 1800 5100
+F 0 "D30" V 1846 5021 50  0000 R CNN
+F 1 " " V 1755 5021 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 1800 5100 50  0001 C CNN
+F 3 "~" H 1800 5100 50  0001 C CNN
+	1    1800 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW46
+U 1 1 5E56884A
+P 1600 5600
+F 0 "SW46" H 1600 5885 50  0000 C CNN
+F 1 " " H 1600 5794 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 1600 5800 50  0001 C CNN
+F 3 "~" H 1600 5800 50  0001 C CNN
+	1    1600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5E568850
+P 1800 5750
+F 0 "D44" V 1846 5671 50  0000 R CNN
+F 1 " " V 1755 5671 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 1800 5750 50  0001 C CNN
+F 3 "~" H 1800 5750 50  0001 C CNN
+	1    1800 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5E573943
+P 2200 3650
+F 0 "SW5" H 2200 3935 50  0000 C CNN
+F 1 " " H 2200 3844 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 2200 3850 50  0001 C CNN
+F 3 "~" H 2200 3850 50  0001 C CNN
+	1    2200 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5E573949
+P 2400 3800
+F 0 "D3" V 2446 3721 50  0000 R CNN
+F 1 " " V 2355 3721 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 2400 3800 50  0001 C CNN
+F 3 "~" H 2400 3800 50  0001 C CNN
+	1    2400 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5E57394F
+P 2200 4300
+F 0 "SW19" H 2200 4585 50  0000 C CNN
+F 1 " " H 2200 4494 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 2200 4500 50  0001 C CNN
+F 3 "~" H 2200 4500 50  0001 C CNN
+	1    2200 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5E573955
+P 2400 4450
+F 0 "D17" V 2446 4371 50  0000 R CNN
+F 1 " " V 2355 4371 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 2400 4450 50  0001 C CNN
+F 3 "~" H 2400 4450 50  0001 C CNN
+	1    2400 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5E573961
+P 2400 5100
+F 0 "D31" V 2446 5021 50  0000 R CNN
+F 1 " " V 2355 5021 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 2400 5100 50  0001 C CNN
+F 3 "~" H 2400 5100 50  0001 C CNN
+	1    2400 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 5E57396D
+P 2400 5750
+F 0 "D45" V 2446 5671 50  0000 R CNN
+F 1 " " V 2355 5671 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 2400 5750 50  0001 C CNN
+F 3 "~" H 2400 5750 50  0001 C CNN
+	1    2400 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5E573973
+P 2800 3650
+F 0 "SW6" H 2800 3935 50  0000 C CNN
+F 1 " " H 2800 3844 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 2800 3850 50  0001 C CNN
+F 3 "~" H 2800 3850 50  0001 C CNN
+	1    2800 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5E573979
+P 3000 3800
+F 0 "D4" V 3046 3721 50  0000 R CNN
+F 1 " " V 2955 3721 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 3000 3800 50  0001 C CNN
+F 3 "~" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5E57397F
+P 2800 4300
+F 0 "SW20" H 2800 4585 50  0000 C CNN
+F 1 " " H 2800 4494 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 2800 4500 50  0001 C CNN
+F 3 "~" H 2800 4500 50  0001 C CNN
+	1    2800 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5E573985
+P 3000 4450
+F 0 "D18" V 3046 4371 50  0000 R CNN
+F 1 " " V 2955 4371 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 3000 4450 50  0001 C CNN
+F 3 "~" H 3000 4450 50  0001 C CNN
+	1    3000 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 5E57398B
+P 2800 4950
+F 0 "SW34" H 2800 5235 50  0000 C CNN
+F 1 " " H 2800 5144 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 2800 5150 50  0001 C CNN
+F 3 "~" H 2800 5150 50  0001 C CNN
+	1    2800 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5E573991
+P 3000 5100
+F 0 "D32" V 3046 5021 50  0000 R CNN
+F 1 " " V 2955 5021 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 3000 5100 50  0001 C CNN
+F 3 "~" H 3000 5100 50  0001 C CNN
+	1    3000 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW48
+U 1 1 5E573997
+P 2800 5600
+F 0 "SW48" H 2800 5885 50  0000 C CNN
+F 1 " " H 2800 5794 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 2800 5800 50  0001 C CNN
+F 3 "~" H 2800 5800 50  0001 C CNN
+	1    2800 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 5E57399D
+P 3000 5750
+F 0 "D46" V 3046 5671 50  0000 R CNN
+F 1 " " V 2955 5671 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 3000 5750 50  0001 C CNN
+F 3 "~" H 3000 5750 50  0001 C CNN
+	1    3000 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5E582E81
+P 3400 3650
+F 0 "SW7" H 3400 3935 50  0000 C CNN
+F 1 " " H 3400 3844 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 3400 3850 50  0001 C CNN
+F 3 "~" H 3400 3850 50  0001 C CNN
+	1    3400 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5E582E87
+P 3600 3800
+F 0 "D5" V 3646 3721 50  0000 R CNN
+F 1 " " V 3555 3721 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 3600 3800 50  0001 C CNN
+F 3 "~" H 3600 3800 50  0001 C CNN
+	1    3600 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5E582E8D
+P 3400 4300
+F 0 "SW21" H 3400 4585 50  0000 C CNN
+F 1 " " H 3400 4494 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 3400 4500 50  0001 C CNN
+F 3 "~" H 3400 4500 50  0001 C CNN
+	1    3400 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5E582E93
+P 3600 4450
+F 0 "D19" V 3646 4371 50  0000 R CNN
+F 1 " " V 3555 4371 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 3600 4450 50  0001 C CNN
+F 3 "~" H 3600 4450 50  0001 C CNN
+	1    3600 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 5E582E99
+P 3400 4950
+F 0 "SW35" H 3400 5235 50  0000 C CNN
+F 1 " " H 3400 5144 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 3400 5150 50  0001 C CNN
+F 3 "~" H 3400 5150 50  0001 C CNN
+	1    3400 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5E582E9F
+P 3600 5100
+F 0 "D33" V 3646 5021 50  0000 R CNN
+F 1 " " V 3555 5021 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 3600 5100 50  0001 C CNN
+F 3 "~" H 3600 5100 50  0001 C CNN
+	1    3600 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW49
+U 1 1 5E582EA5
+P 3400 5600
+F 0 "SW49" H 3400 5885 50  0000 C CNN
+F 1 " " H 3400 5794 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 3400 5800 50  0001 C CNN
+F 3 "~" H 3400 5800 50  0001 C CNN
+	1    3400 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 5E582EAB
+P 3600 5750
+F 0 "D47" V 3646 5671 50  0000 R CNN
+F 1 " " V 3555 5671 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 3600 5750 50  0001 C CNN
+F 3 "~" H 3600 5750 50  0001 C CNN
+	1    3600 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5E582EB1
+P 4000 3650
+F 0 "SW8" H 4000 3935 50  0000 C CNN
+F 1 " " H 4000 3844 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 4000 3850 50  0001 C CNN
+F 3 "~" H 4000 3850 50  0001 C CNN
+	1    4000 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5E582EB7
+P 4200 3800
+F 0 "D6" V 4246 3721 50  0000 R CNN
+F 1 " " V 4155 3721 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 4200 3800 50  0001 C CNN
+F 3 "~" H 4200 3800 50  0001 C CNN
+	1    4200 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5E582EBD
+P 4000 4300
+F 0 "SW22" H 4000 4585 50  0000 C CNN
+F 1 " " H 4000 4494 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 4000 4500 50  0001 C CNN
+F 3 "~" H 4000 4500 50  0001 C CNN
+	1    4000 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5E582EC3
+P 4200 4450
+F 0 "D20" V 4246 4371 50  0000 R CNN
+F 1 " " V 4155 4371 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 4200 4450 50  0001 C CNN
+F 3 "~" H 4200 4450 50  0001 C CNN
+	1    4200 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 5E582EC9
+P 4000 4950
+F 0 "SW36" H 4000 5235 50  0000 C CNN
+F 1 " " H 4000 5144 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 4000 5150 50  0001 C CNN
+F 3 "~" H 4000 5150 50  0001 C CNN
+	1    4000 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5E582ECF
+P 4200 5100
+F 0 "D34" V 4246 5021 50  0000 R CNN
+F 1 " " V 4155 5021 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 4200 5100 50  0001 C CNN
+F 3 "~" H 4200 5100 50  0001 C CNN
+	1    4200 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW50
+U 1 1 5E582ED5
+P 4000 5600
+F 0 "SW50" H 4000 5885 50  0000 C CNN
+F 1 " " H 4000 5794 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 4000 5800 50  0001 C CNN
+F 3 "~" H 4000 5800 50  0001 C CNN
+	1    4000 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 5E582EDB
+P 4200 5750
+F 0 "D48" V 4246 5671 50  0000 R CNN
+F 1 " " V 4155 5671 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 4200 5750 50  0001 C CNN
+F 3 "~" H 4200 5750 50  0001 C CNN
+	1    4200 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5E582EE1
+P 4600 3650
+F 0 "SW9" H 4600 3935 50  0000 C CNN
+F 1 " " H 4600 3844 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 4600 3850 50  0001 C CNN
+F 3 "~" H 4600 3850 50  0001 C CNN
+	1    4600 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5E582EE7
+P 4800 3800
+F 0 "D7" V 4846 3721 50  0000 R CNN
+F 1 " " V 4755 3721 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 4800 3800 50  0001 C CNN
+F 3 "~" H 4800 3800 50  0001 C CNN
+	1    4800 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5E582EED
+P 4600 4300
+F 0 "SW23" H 4600 4585 50  0000 C CNN
+F 1 " " H 4600 4494 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 4600 4500 50  0001 C CNN
+F 3 "~" H 4600 4500 50  0001 C CNN
+	1    4600 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5E582EF3
+P 4800 4450
+F 0 "D21" V 4846 4371 50  0000 R CNN
+F 1 " " V 4755 4371 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 4800 4450 50  0001 C CNN
+F 3 "~" H 4800 4450 50  0001 C CNN
+	1    4800 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 5E582EF9
+P 4600 4950
+F 0 "SW37" H 4600 5235 50  0000 C CNN
+F 1 " " H 4600 5144 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 4600 5150 50  0001 C CNN
+F 3 "~" H 4600 5150 50  0001 C CNN
+	1    4600 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5E582EFF
+P 4800 5100
+F 0 "D35" V 4846 5021 50  0000 R CNN
+F 1 " " V 4755 5021 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 4800 5100 50  0001 C CNN
+F 3 "~" H 4800 5100 50  0001 C CNN
+	1    4800 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW51
+U 1 1 5E582F05
+P 4600 5600
+F 0 "SW51" H 4600 5885 50  0000 C CNN
+F 1 " " H 4600 5794 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 4600 5800 50  0001 C CNN
+F 3 "~" H 4600 5800 50  0001 C CNN
+	1    4600 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D49
+U 1 1 5E582F0B
+P 4800 5750
+F 0 "D49" V 4846 5671 50  0000 R CNN
+F 1 " " V 4755 5671 50  0000 R CNN
+F 2 "ARDUINO PRO MICRO:Diode_2" H 4800 5750 50  0001 C CNN
+F 3 "~" H 4800 5750 50  0001 C CNN
+	1    4800 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5E598FCC
+P 2900 900
+F 0 "SW1" H 2900 1185 50  0000 C CNN
+F 1 " " H 2900 1094 50  0000 C CNN
+F 2 "ARDUINO PRO MICRO:RST" H 2900 1100 50  0001 C CNN
+F 3 "~" H 2900 1100 50  0001 C CNN
+	1    2900 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E59E9BC
+P 2700 900
+F 0 "#PWR0102" H 2700 650 50  0001 C CNN
+F 1 "GND" H 2705 727 50  0000 C CNN
+F 2 "" H 2700 900 50  0001 C CNN
+F 3 "" H 2700 900 50  0001 C CNN
+	1    2700 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 900  2    50   Input ~ 0
+rstl
+Wire Wire Line
+	1200 3950 1800 3950
+Connection ~ 1800 3950
+Wire Wire Line
+	1800 3950 2400 3950
+Connection ~ 2400 3950
+Wire Wire Line
+	2400 3950 3000 3950
+Connection ~ 3000 3950
+Wire Wire Line
+	3000 3950 3600 3950
+Connection ~ 3600 3950
+Wire Wire Line
+	3600 3950 4200 3950
+Connection ~ 4200 3950
+Wire Wire Line
+	4200 3950 4800 3950
+Connection ~ 4800 3950
+Wire Wire Line
+	4800 3950 5150 3950
+Wire Wire Line
+	5150 4600 4800 4600
+Connection ~ 2400 4600
+Connection ~ 3000 4600
+Wire Wire Line
+	3000 4600 2400 4600
+Connection ~ 3600 4600
+Wire Wire Line
+	3600 4600 3000 4600
+Connection ~ 4200 4600
+Wire Wire Line
+	4200 4600 3600 4600
+Connection ~ 4800 4600
+Wire Wire Line
+	4800 4600 4200 4600
+Wire Wire Line
+	1200 5250 1800 5250
+Connection ~ 2400 5250
+Connection ~ 3000 5250
+Wire Wire Line
+	3000 5250 3600 5250
+Connection ~ 3600 5250
+Wire Wire Line
+	3600 5250 4200 5250
+Connection ~ 4200 5250
+Wire Wire Line
+	4200 5250 4800 5250
+Connection ~ 4800 5250
+Wire Wire Line
+	4800 5250 5150 5250
+Wire Wire Line
+	5150 5900 4800 5900
+Connection ~ 1800 5900
+Wire Wire Line
+	1800 5900 1200 5900
+Connection ~ 2400 5900
+Wire Wire Line
+	2400 5900 1800 5900
+Connection ~ 3000 5900
+Wire Wire Line
+	3000 5900 2400 5900
+Connection ~ 3600 5900
+Wire Wire Line
+	3600 5900 3000 5900
+Connection ~ 4200 5900
+Wire Wire Line
+	4200 5900 3600 5900
+Connection ~ 4800 5900
+Wire Wire Line
+	4800 5900 4200 5900
+Wire Wire Line
+	800  5600 800  4950
+Connection ~ 800  4300
+Connection ~ 800  4950
+Wire Wire Line
+	800  4950 800  4300
+Wire Wire Line
+	1400 3200 1400 3650
+Connection ~ 1400 3650
+Wire Wire Line
+	1400 3650 1400 4300
+Connection ~ 1400 4300
+Wire Wire Line
+	1400 4300 1400 4950
+Connection ~ 1400 4950
+Wire Wire Line
+	1400 4950 1400 5600
+Connection ~ 2000 3650
+Wire Wire Line
+	2000 3650 2000 3200
+Connection ~ 2000 4300
+Wire Wire Line
+	2000 4300 2000 3650
+Connection ~ 2600 4300
+Wire Wire Line
+	2600 4300 2600 4950
+Connection ~ 2600 4950
+Wire Wire Line
+	2600 4950 2600 5600
+Wire Wire Line
+	3200 5600 3200 4950
+Connection ~ 3200 3650
+Wire Wire Line
+	3200 3650 3200 3200
+Connection ~ 3200 4300
+Wire Wire Line
+	3200 4300 3200 3650
+Connection ~ 3200 4950
+Wire Wire Line
+	3200 4950 3200 4300
+Wire Wire Line
+	3800 3200 3800 3650
+Connection ~ 3800 3650
+Wire Wire Line
+	3800 3650 3800 4300
+Connection ~ 3800 4300
+Wire Wire Line
+	4400 5600 4400 4950
+Connection ~ 4400 3650
+Wire Wire Line
+	4400 3650 4400 3200
+Connection ~ 4400 4300
+Wire Wire Line
+	4400 4300 4400 3650
+Connection ~ 4400 4950
+Wire Wire Line
+	4400 4950 4400 4300
+$Comp
+L promicro:PJ-320 p1
+U 1 1 5E5ECCE5
+P 4150 900
+F 0 "p1" H 4428 951 50  0000 L CNN
+F 1 "PJ-320" H 4428 860 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:PJ-320A" H 4050 900 394 0001 C CNN
+F 3 "" H 4050 900 394 0001 C CNN
+	1    4150 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 850  0    50   Input ~ 0
+data1l
+Text GLabel 3900 950  0    50   Input ~ 0
+data2l
+$Comp
+L power:GND #PWR0105
+U 1 1 5E5F66B7
+P 3900 1050
+F 0 "#PWR0105" H 3900 800 50  0001 C CNN
+F 1 "GND" H 3905 877 50  0000 C CNN
+F 2 "" H 3900 1050 50  0001 C CNN
+F 3 "" H 3900 1050 50  0001 C CNN
+	1    3900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5E5F9A47
+P 3900 750
+F 0 "#PWR0106" H 3900 600 50  0001 C CNN
+F 1 "+5V" H 3915 923 50  0000 C CNN
+F 2 "" H 3900 750 50  0001 C CNN
+F 3 "" H 3900 750 50  0001 C CNN
+	1    3900 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E5FA53B
+P 2250 1450
+F 0 "#PWR0107" H 2250 1200 50  0001 C CNN
+F 1 "GND" V 2255 1322 50  0000 R CNN
+F 2 "" H 2250 1450 50  0001 C CNN
+F 3 "" H 2250 1450 50  0001 C CNN
+	1    2250 1450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2250 1550 2    50   Input ~ 0
+rstl
+$Comp
+L power:+5V #PWR0111
+U 1 1 5E6022EB
+P 2250 1650
+F 0 "#PWR0111" H 2250 1500 50  0001 C CNN
+F 1 "+5V" V 2265 1778 50  0000 L CNN
+F 2 "" H 2250 1650 50  0001 C CNN
+F 3 "" H 2250 1650 50  0001 C CNN
+	1    2250 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	850  1650 850  1600
+$Comp
+L power:GND #PWR0112
+U 1 1 5E605B67
+P 850 1600
+F 0 "#PWR0112" H 850 1350 50  0001 C CNN
+F 1 "GND" V 855 1472 50  0000 R CNN
+F 2 "" H 850 1600 50  0001 C CNN
+F 3 "" H 850 1600 50  0001 C CNN
+	1    850  1600
+	0    1    1    0   
+$EndComp
+Connection ~ 850  1600
+Wire Wire Line
+	850  1600 850  1550
+NoConn ~ 2250 1350
+Text GLabel 850  1350 0    50   Input ~ 0
+d3l
+Text GLabel 850  1450 0    50   Input ~ 0
+d2l
+Text GLabel 850  1750 0    50   Input ~ 0
+sdal
+Text GLabel 850  1850 0    50   Input ~ 0
+scll
+Text GLabel 3050 2050 2    50   Input ~ 0
+data1l
+Text GLabel 3050 1450 2    50   Input ~ 0
+data2l
+Text GLabel 3050 2050 0    50   Input ~ 0
+sdal
+Text GLabel 3050 1450 0    50   Input ~ 0
+scll
+$Comp
+L promicro:Hold h1
+U 1 1 5E722941
+P 1400 6400
+F 0 "h1" H 1528 6446 50  0000 L CNN
+F 1 "Hold" H 1528 6355 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Hole" H 1400 6400 50  0001 C CNN
+F 3 "" H 1400 6400 50  0001 C CNN
+	1    1400 6400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5750 550  5750 7700
+Wire Notes Line
+	5750 7700 5800 7700
+$Comp
+L promicro:Hold h2
+U 1 1 5E749115
+P 1800 6400
+F 0 "h2" H 1928 6446 50  0000 L CNN
+F 1 "Hold" H 1928 6355 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Hole" H 1800 6400 50  0001 C CNN
+F 3 "" H 1800 6400 50  0001 C CNN
+	1    1800 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L promicro:Hold h3
+U 1 1 5E74CF69
+P 2200 6400
+F 0 "h3" H 2328 6446 50  0000 L CNN
+F 1 "Hold" H 2328 6355 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Hole" H 2200 6400 50  0001 C CNN
+F 3 "" H 2200 6400 50  0001 C CNN
+	1    2200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L promicro:Hold h4
+U 1 1 5E74CF6F
+P 2600 6400
+F 0 "h4" H 2728 6446 50  0000 L CNN
+F 1 "Hold" H 2728 6355 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Hole" H 2600 6400 50  0001 C CNN
+F 3 "" H 2600 6400 50  0001 C CNN
+	1    2600 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L promicro:Hold h5
+U 1 1 5E750A75
+P 3000 6400
+F 0 "h5" H 3128 6446 50  0000 L CNN
+F 1 "Hold" H 3128 6355 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:Hole" H 3000 6400 50  0001 C CNN
+F 3 "" H 3000 6400 50  0001 C CNN
+	1    3000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E77ED55
+P 4850 900
+F 0 "R1" H 4920 946 50  0000 L CNN
+F 1 "R" H 4920 855 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:R_1" V 4780 900 50  0001 C CNN
+F 3 "~" H 4850 900 50  0001 C CNN
+	1    4850 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 750  5000 750 
+$Comp
+L power:+5V #PWR0117
+U 1 1 5E786F5A
+P 5000 750
+F 0 "#PWR0117" H 5000 600 50  0001 C CNN
+F 1 "+5V" H 5015 923 50  0000 C CNN
+F 2 "" H 5000 750 50  0001 C CNN
+F 3 "" H 5000 750 50  0001 C CNN
+	1    5000 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 750 
+Wire Wire Line
+	5000 750  5150 750 
+Text GLabel 5150 1050 3    50   Input ~ 0
+sdal
+Text GLabel 4850 1050 3    50   Input ~ 0
+scll
+$Comp
+L Device:R R2
+U 1 1 5E799833
+P 5150 900
+F 0 "R2" H 5220 946 50  0000 L CNN
+F 1 "R" H 5220 855 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:R_1" V 5080 900 50  0001 C CNN
+F 3 "~" H 5150 900 50  0001 C CNN
+	1    5150 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  3200 800  3650
+Connection ~ 800  3650
+Wire Wire Line
+	800  3650 800  4300
+Connection ~ 1800 4600
+Wire Wire Line
+	1800 4600 2400 4600
+Wire Wire Line
+	1200 4600 1800 4600
+Text GLabel 5150 3950 2    50   Input ~ 0
+row1l
+Text GLabel 5150 4600 2    50   Input ~ 0
+row2l
+Text GLabel 5150 5250 2    50   Input ~ 0
+row3l
+Text GLabel 5150 5900 2    50   Input ~ 0
+row4l
+Text GLabel 800  3200 1    50   Input ~ 0
+col0l
+Text GLabel 1400 3200 1    50   Input ~ 0
+col1l
+Text GLabel 2000 3200 1    50   Input ~ 0
+col2l
+Text GLabel 2600 3200 1    50   Input ~ 0
+col3l
+Text GLabel 3200 3200 1    50   Input ~ 0
+col4l
+Text GLabel 3800 3200 1    50   Input ~ 0
+col5l
+Text GLabel 4400 3200 1    50   Input ~ 0
+col6l
+Text GLabel 850  2150 0    50   Input ~ 0
+row1l
+Text GLabel 850  2250 0    50   Input ~ 0
+row2l
+Text GLabel 850  2350 0    50   Input ~ 0
+row3l
+Text GLabel 850  2450 0    50   Input ~ 0
+row4l
+Text GLabel 2250 1850 2    50   Input ~ 0
+col0l
+Text GLabel 2250 1950 2    50   Input ~ 0
+col1l
+Text GLabel 2250 2050 2    50   Input ~ 0
+col2l
+Text GLabel 2250 2150 2    50   Input ~ 0
+col3l
+Text GLabel 2250 2250 2    50   Input ~ 0
+col4l
+Text GLabel 2250 2350 2    50   Input ~ 0
+col5l
+Text GLabel 2250 2450 2    50   Input ~ 0
+col6l
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5E58D816
+P 5100 1700
+F 0 "J1" H 5180 1742 50  0000 L CNN
+F 1 " " H 5180 1651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5100 1700 50  0001 C CNN
+F 3 "~" H 5100 1700 50  0001 C CNN
+	1    5100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5E594AB4
+P 4900 1600
+F 0 "#PWR0119" H 4900 1350 50  0001 C CNN
+F 1 "GND" H 4905 1427 50  0000 C CNN
+F 2 "" H 4900 1600 50  0001 C CNN
+F 3 "" H 4900 1600 50  0001 C CNN
+	1    4900 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0120
+U 1 1 5E5955CA
+P 4900 1800
+F 0 "#PWR0120" H 4900 1650 50  0001 C CNN
+F 1 "+5V" H 4915 1973 50  0000 C CNN
+F 2 "" H 4900 1800 50  0001 C CNN
+F 3 "" H 4900 1800 50  0001 C CNN
+	1    4900 1800
+	-1   0    0    1   
+$EndComp
+Text GLabel 4900 1700 0    50   Input ~ 0
+d_inl
+Text GLabel 2250 1750 2    50   Input ~ 0
+d_inl
+$Sheet
+S 1350 7050 900  200 
+U 5E592E7E
+F0 "Sheet5E592E7D" 50
+F1 "file5E592E7D.sch" 50
+$EndSheet
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5E635F20
+P 4200 2200
+F 0 "J3" H 4280 2242 50  0000 L CNN
+F 1 " " H 4280 2151 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:testpoind" H 4200 2200 50  0001 C CNN
+F 3 "~" H 4200 2200 50  0001 C CNN
+	1    4200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5E63E0C7
+P 4200 2300
+F 0 "J4" H 4280 2342 50  0000 L CNN
+F 1 " " H 4280 2251 50  0000 L CNN
+F 2 "ARDUINO PRO MICRO:testpoind" H 4200 2300 50  0001 C CNN
+F 3 "~" H 4200 2300 50  0001 C CNN
+	1    4200 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 850  1950 0    50   Input ~ 0
+D4l
+Text GLabel 850  2050 0    50   Input ~ 0
+C6l
+Text GLabel 4000 2200 0    50   Input ~ 0
+D4l
+Text GLabel 4000 2300 0    50   Input ~ 0
+C6l
+Connection ~ 2000 4950
+Wire Wire Line
+	2000 4950 2000 4300
+Wire Wire Line
+	2000 5600 2000 4950
+Connection ~ 1800 5250
+Wire Wire Line
+	2400 5250 3000 5250
+Wire Wire Line
+	1800 5250 2400 5250
+$Comp
+L Switch:SW_Push SW47
+U 1 1 5E573967
+P 2200 5600
+F 0 "SW47" H 2200 5885 50  0000 C CNN
+F 1 " " H 2200 5794 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 2200 5800 50  0001 C CNN
+F 3 "~" H 2200 5800 50  0001 C CNN
+	1    2200 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5E57395B
+P 2200 4950
+F 0 "SW33" H 2200 5235 50  0000 C CNN
+F 1 " " H 2200 5144 50  0000 C CNN
+F 2 "Switch_hotswap_2_mat:1u" H 2200 5150 50  0001 C CNN
+F 3 "~" H 2200 5150 50  0001 C CNN
+	1    2200 4950
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2600 3650
+Wire Wire Line
+	2600 3650 2600 4300
+Wire Wire Line
+	2600 3200 2600 3650
+Wire Wire Line
+	3800 4300 3800 4950
+Connection ~ 3800 4950
+Wire Wire Line
+	3800 4950 3800 5600
+$EndSCHEMATC
