@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name ProMicro)(type Legacy)(uri /home/kien/Desktop/pcb/PCB-khac/ErgoTravel/Library/schematics/ProMicro.lib)(options "")(descr ""))
+  (lib (name keyboard_parts)(type Legacy)(uri /home/kien/Desktop/pcb/PCB-khac/ErgoTravel/Library/schematics/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name canadian_parts)(type Legacy)(uri /home/kien/Desktop/pcb/PCB-khac/ErgoTravel/Library/schematics/canadian_parts.lib)(options "")(descr ""))
+  (lib (name LED)(type Legacy)(uri /home/kien/Desktop/pcb/PCB-khac/ErgoTravel/Library/schematics/LED.lib)(options "")(descr ""))
+)

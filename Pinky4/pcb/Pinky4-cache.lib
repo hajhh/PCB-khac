@@ -9,7 +9,7 @@ F1 "Connector_Generic_Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -32,9 +32,9 @@ $FPLIST
  D_*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 10 -50 50 -50 -50 N
 P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -47,6 +47,12 @@ F0 "JP" 0 150 50 H V C CNN
 F1 "Device_Jumper" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
 DRAW
 A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
 C -100 0 35 0 1 0 N
@@ -73,11 +79,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# kbd_MJ-4PP-9
+# Pinky4-rescue_MJ-4PP-9-kbd
 #
-DEF kbd_MJ-4PP-9 J 0 40 Y Y 1 F N
+DEF Pinky4-rescue_MJ-4PP-9-kbd J 0 40 Y Y 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "kbd_MJ-4PP-9" 0 -150 50 H V C CNN
+F1 "Pinky4-rescue_MJ-4PP-9-kbd" 0 -150 50 H V C CNN
 F2 "" 275 175 50 H I C CNN
 F3 "" 275 175 50 H I C CNN
 DRAW
@@ -94,11 +100,11 @@ X ~ D 200 25 79 L 28 20 1 1 I
 ENDDRAW
 ENDDEF
 #
-# kbd_ProMicro
+# Pinky4-rescue_ProMicro-kbd
 #
-DEF kbd_ProMicro U 0 40 Y Y 1 F N
+DEF Pinky4-rescue_ProMicro-kbd U 0 40 Y Y 1 F N
 F0 "U" 0 950 60 H V C CNN
-F1 "kbd_ProMicro" 0 -550 60 H V C CNN
+F1 "Pinky4-rescue_ProMicro-kbd" 0 -550 60 H V C CNN
 F2 "" 100 -1050 60 H V C CNN
 F3 "" 100 -1050 60 H V C CNN
 DRAW
@@ -130,11 +136,11 @@ X D7 9 -700 -50 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# kbd_SW_PUSH
+# Pinky4-rescue_SW_PUSH-kbd
 #
-DEF kbd_SW_PUSH SW 0 40 N N 1 F N
+DEF Pinky4-rescue_SW_PUSH-kbd SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "kbd_SW_PUSH" 0 -80 50 H V C CNN
+F1 "Pinky4-rescue_SW_PUSH-kbd" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -179,8 +185,9 @@ F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF

@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Pinky-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Pinky4-rescue:ProMicro-kbd U1
+L kbd:ProMicro U1
 U 1 1 5BC2FDFC
 P 1905 2195
 F 0 "U1" H 1905 3232 60  0000 C CNN
@@ -70,7 +71,7 @@ Wire Wire Line
 Wire Wire Line
 	3055 1745 3055 1395
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW2
+L kbd:SW_PUSH SW2
 U 1 1 5BC300EA
 P 4920 2870
 F 0 "SW2" H 4920 3125 50  0000 C CNN
@@ -81,7 +82,7 @@ F 3 "" H 4920 2870 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW6
+L kbd:SW_PUSH SW6
 U 1 1 5BC30175
 P 5840 2870
 F 0 "SW6" H 5840 3125 50  0000 C CNN
@@ -92,7 +93,7 @@ F 3 "" H 5840 2870 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW7
+L kbd:SW_PUSH SW7
 U 1 1 5BC302DC
 P 5840 3570
 F 0 "SW7" H 5840 3825 50  0000 C CNN
@@ -121,7 +122,7 @@ col1
 Text GLabel 2605 1645 2    50   Input ~ 0
 reset
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW1
+L kbd:SW_PUSH SW1
 U 1 1 5BC2BB1A
 P 1975 4845
 F 0 "SW1" H 1975 5100 50  0000 C CNN
@@ -147,7 +148,7 @@ $EndComp
 Text GLabel 2980 3670 2    50   Input ~ 0
 data
 $Comp
-L Pinky4-rescue:MJ-4PP-9-kbd J1
+L kbd:MJ-4PP-9 J1
 U 1 1 5BCC34EB
 P 1655 3595
 F 0 "J1" H 1685 3871 50  0000 C CNN
@@ -242,7 +243,7 @@ NoConn ~ 1205 2545
 NoConn ~ 2605 1445
 NoConn ~ 2605 2545
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW4
+L kbd:SW_PUSH SW4
 U 1 1 5BD6F90B
 P 4920 4230
 F 0 "SW4" H 4920 4485 50  0000 C CNN
@@ -253,7 +254,7 @@ F 3 "" H 4920 4230 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW5
+L kbd:SW_PUSH SW5
 U 1 1 5BD708BE
 P 4920 4910
 F 0 "SW5" H 4920 5165 50  0000 C CNN
@@ -264,7 +265,7 @@ F 3 "" H 4920 4910 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW8
+L kbd:SW_PUSH SW8
 U 1 1 5BD70F56
 P 5840 4230
 F 0 "SW8" H 5840 4485 50  0000 C CNN
@@ -275,7 +276,7 @@ F 3 "" H 5840 4230 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW9
+L kbd:SW_PUSH SW9
 U 1 1 5BD71F0E
 P 5840 4910
 F 0 "SW9" H 5840 5165 50  0000 C CNN
@@ -297,7 +298,7 @@ F 3 "~" H 5220 3020 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW3
+L kbd:SW_PUSH SW3
 U 1 1 5BC302D5
 P 4920 3570
 F 0 "SW3" H 4920 3825 50  0000 C CNN
@@ -330,7 +331,7 @@ F 3 "~" H 6140 3020 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW10
+L kbd:SW_PUSH SW10
 U 1 1 5BDBC8C1
 P 6730 2870
 F 0 "SW10" H 6730 3125 50  0000 C CNN
@@ -341,7 +342,7 @@ F 3 "" H 6730 2870 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW11
+L kbd:SW_PUSH SW11
 U 1 1 5BDBCD8D
 P 6730 3570
 F 0 "SW11" H 6730 3825 50  0000 C CNN
@@ -352,7 +353,7 @@ F 3 "" H 6730 3570 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW14
+L kbd:SW_PUSH SW14
 U 1 1 5BDBD460
 P 7605 2870
 F 0 "SW14" H 7605 3125 50  0000 C CNN
@@ -363,7 +364,7 @@ F 3 "" H 7605 2870 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW15
+L kbd:SW_PUSH SW15
 U 1 1 5BDBD8D0
 P 7605 3570
 F 0 "SW15" H 7605 3825 50  0000 C CNN
@@ -374,7 +375,7 @@ F 3 "" H 7605 3570 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW12
+L kbd:SW_PUSH SW12
 U 1 1 5BDBDE28
 P 6730 4230
 F 0 "SW12" H 6730 4485 50  0000 C CNN
@@ -385,7 +386,7 @@ F 3 "" H 6730 4230 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW16
+L kbd:SW_PUSH SW16
 U 1 1 5BDBE29C
 P 7605 4230
 F 0 "SW16" H 7605 4485 50  0000 C CNN
@@ -396,7 +397,7 @@ F 3 "" H 7605 4230 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW13
+L kbd:SW_PUSH SW13
 U 1 1 5BDBE802
 P 6730 4910
 F 0 "SW13" H 6730 5165 50  0000 C CNN
@@ -407,7 +408,7 @@ F 3 "" H 6730 4910 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW17
+L kbd:SW_PUSH SW17
 U 1 1 5BDBECBA
 P 7605 4910
 F 0 "SW17" H 7605 5165 50  0000 C CNN
@@ -418,7 +419,7 @@ F 3 "" H 7605 4910 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW18
+L kbd:SW_PUSH SW18
 U 1 1 5BDBF6B1
 P 7605 5570
 F 0 "SW18" H 7605 5825 50  0000 C CNN
@@ -429,7 +430,7 @@ F 3 "" H 7605 5570 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW19
+L kbd:SW_PUSH SW19
 U 1 1 5BDBFF35
 P 8460 2870
 F 0 "SW19" H 8460 3125 50  0000 C CNN
@@ -440,7 +441,7 @@ F 3 "" H 8460 2870 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW20
+L kbd:SW_PUSH SW20
 U 1 1 5BDC050F
 P 8460 3570
 F 0 "SW20" H 8460 3825 50  0000 C CNN
@@ -451,7 +452,7 @@ F 3 "" H 8460 3570 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW21
+L kbd:SW_PUSH SW21
 U 1 1 5BDC09AE
 P 8460 4230
 F 0 "SW21" H 8460 4485 50  0000 C CNN
@@ -462,7 +463,7 @@ F 3 "" H 8460 4230 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW22
+L kbd:SW_PUSH SW22
 U 1 1 5BDC0E41
 P 8460 4910
 F 0 "SW22" H 8460 5165 50  0000 C CNN
@@ -473,7 +474,7 @@ F 3 "" H 8460 4910 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW23
+L kbd:SW_PUSH SW23
 U 1 1 5BDC1338
 P 8460 5570
 F 0 "SW23" H 8460 5825 50  0000 C CNN
@@ -484,7 +485,7 @@ F 3 "" H 8460 5570 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW24
+L kbd:SW_PUSH SW24
 U 1 1 5BDC2CE2
 P 9300 2870
 F 0 "SW24" H 9300 3125 50  0000 C CNN
@@ -495,7 +496,7 @@ F 3 "" H 9300 2870 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW25
+L kbd:SW_PUSH SW25
 U 1 1 5BDC2CE9
 P 9300 3570
 F 0 "SW25" H 9300 3825 50  0000 C CNN
@@ -506,7 +507,7 @@ F 3 "" H 9300 3570 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW26
+L kbd:SW_PUSH SW26
 U 1 1 5BDC2CF0
 P 9300 4230
 F 0 "SW26" H 9300 4485 50  0000 C CNN
@@ -517,7 +518,7 @@ F 3 "" H 9300 4230 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW27
+L kbd:SW_PUSH SW27
 U 1 1 5BDC2CF7
 P 9300 4910
 F 0 "SW27" H 9300 5165 50  0000 C CNN
@@ -528,7 +529,7 @@ F 3 "" H 9300 4910 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW28
+L kbd:SW_PUSH SW28
 U 1 1 5BDC2CFE
 P 9300 5570
 F 0 "SW28" H 9300 5825 50  0000 C CNN
@@ -963,7 +964,7 @@ col6
 Wire Wire Line
 	4335 5870 7905 5870
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW29
+L kbd:SW_PUSH SW29
 U 1 1 5BF7CE02
 P 10185 2870
 F 0 "SW29" H 10185 3125 50  0000 C CNN
@@ -974,7 +975,7 @@ F 3 "" H 10185 2870 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW30
+L kbd:SW_PUSH SW30
 U 1 1 5BF7CE09
 P 10185 3570
 F 0 "SW30" H 10185 3825 50  0000 C CNN
@@ -985,7 +986,7 @@ F 3 "" H 10185 3570 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW31
+L kbd:SW_PUSH SW31
 U 1 1 5BF7CE10
 P 10185 4230
 F 0 "SW31" H 10185 4485 50  0000 C CNN
@@ -996,7 +997,7 @@ F 3 "" H 10185 4230 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW32
+L kbd:SW_PUSH SW32
 U 1 1 5BF7CE17
 P 10185 4910
 F 0 "SW32" H 10185 5165 50  0000 C CNN
@@ -1007,7 +1008,7 @@ F 3 "" H 10185 4910 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pinky4-rescue:SW_PUSH-kbd SW33
+L kbd:SW_PUSH SW33
 U 1 1 5BF7CE1E
 P 10185 5570
 F 0 "SW33" H 10185 5825 50  0000 C CNN
