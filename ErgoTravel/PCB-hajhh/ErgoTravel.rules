@@ -1,0 +1,108 @@
+
+(rules PCB ErgoTravel
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 51903)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 250.2 (type default_Wires))
+    (clear 50.0 (type smd_smd))
+    (clear 250.2 (type smd_Wires))
+    (clear 250.2 (type "kicad_default"_Wires))
+    (clear 250.2 (type Wires_Wires))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-Wires" "Via[0-1]_600:400_um" Wires
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    Wires "Via[0-1]_600:400_um-Wires"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)"
+    "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)"
+    "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)"
+    "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(J1-Pad1)" "Net-(J2-Pad1)" "Net-(J5-Pad1)" "Net-(J6-Pad1)" "Net-(J7-Pad1)"
+    "Net-(J8-Pad1)" col0 col1 col2 col3 col4 col5 col6
+    B A rx sda row0 row3 backlight row1
+    row2 led scl "Net-(J11-Pad1)" "Net-(J12-Pad3)" "Net-(J12-Pad1)" "Net-(J12-Pad2)" "Net-(J12-Pad4)"
+    "Net-(J9-Pad1)" "Net-(J10-Pad1)" "Net-(LED1-PadI)" "Net-(LED1-PadO)" "Net-(LED2-PadO)" "Net-(LED3-PadO)" "Net-(LED4-PadO)" "Net-(LED5-PadO)"
+    "Net-(LED6-PadO)" "Net-(LED14-PadI)" "Net-(LED15-PadI)" "Net-(LED8-PadI)" "Net-(LED10-PadO)" "Net-(LED10-PadI)" "Net-(LED11-PadI)" "Net-(LED12-PadI)"
+    "Net-(LED13-PadI)" "Net-(LED15-PadO)" "Net-(LED16-PadO)" "Net-(LED17-PadO)" "Net-(LED18-PadO)" "Net-(LED19-PadO)" "Net-(LED20-PadO)" "Net-(LED21-PadO)"
+    "Net-(LED22-PadO)" "Net-(LED22-PadI)" "Net-(LED24-PadI)" "Net-(LED25-PadI)" "Net-(LED26-PadI)" "Net-(SW8-Pad2)" "Net-(SW8-Pad1)" "Net-(LED28-PadI)"
+    "Net-(LED29-PadI)" "Net-(LED30-PadI)" "Net-(LED31-PadI)" "Net-(LED32-PadI)" 2 1 "Net-(D28-Pad2)" RST
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Wires
+    GND VCC
+    (clearance_class Wires)
+    (via_rule Wires)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
