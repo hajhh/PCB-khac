@@ -50,17 +50,6 @@ F 3 "" H 1250 1450 50  0001 C CNN
 	1    1250 1450
 	1    0    0    -1  
 $EndComp
-$Comp
-L nrfmicro:E73-2G4M08S1C-52840 U1
-U 1 1 5C7001D3
-P 2350 2150
-F 0 "U1" H 2325 3515 50  0000 C CNN
-F 1 "E73-2G4M08S1C" H 2325 3424 50  0000 C CNN
-F 2 "nrfmicro:E73-2G4M08S1C-52840" H 2350 2150 50  0001 C CNN
-F 3 "" H 2350 2150 50  0001 C CNN
-	1    2350 2150
-	1    0    0    -1  
-$EndComp
 Text Label 1650 2650 2    60   ~ 0
 P1.09
 Text GLabel 3300 2850 2    60   Input ~ 0
@@ -139,28 +128,6 @@ Text Label 1650 2250 2    60   ~ 0
 P0.01
 Text GLabel 10475 1700 2    60   Input ~ 0
 DATA-
-$Comp
-L Device:R R2
-U 1 1 5CAA680B
-P 8350 3400
-F 0 "R2" H 8420 3446 50  0000 L CNN
-F 1 "5.1K" H 8420 3355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8280 3400 50  0001 C CNN
-F 3 "~" H 8350 3400 50  0001 C CNN
-	1    8350 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5CAA879F
-P 8675 3400
-F 0 "R3" H 8745 3446 50  0000 L CNN
-F 1 "5.1K" H 8745 3355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8605 3400 50  0001 C CNN
-F 3 "~" H 8675 3400 50  0001 C CNN
-	1    8675 3400
-	1    0    0    -1  
-$EndComp
 Text GLabel 1325 2650 0    60   Input ~ 0
 POWER_PIN
 Text GLabel 3300 1550 2    60   Input ~ 0
@@ -169,17 +136,6 @@ Text GLabel 8325 950  0    60   Input ~ 0
 SWC
 Text GLabel 8325 850  0    60   Input ~ 0
 SWD
-$Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 5CDF605B
-P 8525 850
-F 0 "J2" H 8605 842 50  0000 L CNN
-F 1 "SWD" H 8605 751 50  0000 L CNN
-F 2 "nrfmicro:connector_swd" H 8525 850 50  0001 C CNN
-F 3 "~" H 8525 850 50  0001 C CNN
-	1    8525 850 
-	1    0    0    -1  
-$EndComp
 Text GLabel 3000 2950 2    60   Input ~ 0
 DCCH
 Text Label 1650 2750 2    60   ~ 0
@@ -233,134 +189,24 @@ Text GLabel 10475 1500 2    60   Input ~ 0
 CC2
 Text GLabel 10475 1200 2    60   Input ~ 0
 VBUS
-$Comp
-L nrfmicro-rescue:USB_C_Receptacle_USB2.0-Connector J1
-U 1 1 5C743564
-P 9875 1800
-F 0 "J1" H 9875 2625 50  0000 C CNN
-F 1 "USB-C Conn" H 9875 2550 50  0000 C CNN
-F 2 "fruitkt:usb-c" H 9982 2575 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 10025 1800 50  0001 C CNN
-	1    9875 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R1
-U 1 1 5B159927
-P 1325 6500
-F 0 "R1" H 1395 6546 50  0000 L CNN
-F 1 "100K" H 1395 6455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1255 6500 50  0001 C CNN
-F 3 "" H 1325 6500 50  0001 C CNN
-	1    1325 6500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky_Small D1
-U 1 1 5B158495
-P 1525 6300
-F 0 "D1" H 1525 6084 50  0000 C CNN
-F 1 "1N5819" H 1525 6175 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323F" H 1525 6125 50  0001 C CNN
-F 3 "" H 1525 6300 50  0001 C CNN
-	1    1525 6300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Q_PMOS_GSD Q1
-U 1 1 5B1587C5
-P 1625 5950
-F 0 "Q1" H 1825 6025 50  0000 L CNN
-F 1 "AO3407" H 1825 5950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1825 5875 50  0001 L CIN
-F 3 "" H 1625 5950 50  0001 L CNN
-	1    1625 5950
-	1    0    0    -1  
-$EndComp
 Text GLabel 1225 5950 0    60   Input ~ 0
 VBUS
 Text Notes 625  5700 0    60   ~ 0
 Power and Filtering
 Wire Wire Line
 	2650 6300 2700 6300
-$Comp
-L nrfmicro-rescue:AP2112K-3.3-Regulator_Linear U2
-U 1 1 5EBF7400
-P 2350 6400
-F 0 "U2" H 2350 6742 50  0000 C CNN
-F 1 "XC6220B331MR-G" H 2350 6651 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2350 6725 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 2350 6500 50  0001 C CNN
-	1    2350 6400
-	1    0    0    -1  
-$EndComp
 Text GLabel 2700 6300 2    60   Input ~ 0
 nRF_VDD
 Text GLabel 1325 2850 0    60   Input ~ 0
 nRF_VDD
 Text Notes 5125 5525 2    60   ~ 0
 LiPo Charging\n
-$Comp
-L Battery_Management:MCP73831-3-OT U3
-U 1 1 5EC2C51F
-P 4825 6075
-F 0 "U3" H 4825 6525 50  0000 C CNN
-F 1 "TP4054" H 4825 6425 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4875 5825 50  0001 L CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 4675 6025 50  0001 C CNN
-	1    4825 6075
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R5
-U 1 1 5ED0E40C
-P 5375 6175
-F 0 "R5" V 5168 6175 50  0000 C CNN
-F 1 "RPROG" V 5259 6175 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5305 6175 50  0001 C CNN
-F 3 "" H 5375 6175 50  0001 C CNN
-	1    5375 6175
-	0    -1   1    0   
-$EndComp
 Text GLabel 4625 4425 0    60   Input ~ 0
 BATTERY_PIN
 Text GLabel 4725 3975 1    60   Input ~ 0
 VBAT
-$Comp
-L Device:R_Small R7
-U 1 1 5ED6EA28
-P 4725 4650
-F 0 "R7" H 4795 4696 50  0000 L CNN
-F 1 "2M" H 4795 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4655 4650 50  0001 C CNN
-F 3 "" H 4725 4650 50  0001 C CNN
-	1    4725 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 5ED6D985
-P 4725 4225
-F 0 "R6" H 4795 4271 50  0000 L CNN
-F 1 "820K" H 4795 4180 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4655 4225 50  0001 C CNN
-F 3 "" H 4725 4225 50  0001 C CNN
-	1    4725 4225
-	1    0    0    -1  
-$EndComp
 Text GLabel 6125 4600 3    60   Input ~ 0
 nRF_VDD
-$Comp
-L Device:Q_PMOS_GSD Q2
-U 1 1 5ED04CF8
-P 6025 4400
-F 0 "Q2" H 6225 4475 50  0000 L CNN
-F 1 "AO3407" H 6225 4400 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6225 4325 50  0001 L CIN
-F 3 "" H 6025 4400 50  0001 L CNN
-	1    6025 4400
-	1    0    0    -1  
-$EndComp
 Text GLabel 5675 4400 0    60   Input ~ 0
 POWER_PIN
 Text GLabel 6125 4200 1    60   Input ~ 0
@@ -444,32 +290,10 @@ F 3 "" H 2600 4400 50  0001 C CNN
 	1    2600 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:LED D2
-U 1 1 5EB6247D
-P 2000 4300
-F 0 "D2" H 1993 4045 50  0000 C CNN
-F 1 "BLUE" H 1993 4136 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 2000 4300 50  0001 C CNN
-F 3 "~" H 2000 4300 50  0001 C CNN
-	1    2000 4300
-	-1   0    0    1   
-$EndComp
 Text GLabel 1800 4300 0    60   Input ~ 0
 BLUE_LED
 Wire Wire Line
 	1800 4300 1850 4300
-$Comp
-L Device:R_Small R4
-U 1 1 5EBF5A4E
-P 2400 4300
-F 0 "R4" V 2607 4300 50  0000 C CNN
-F 1 "1K" V 2516 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 4300 50  0001 C CNN
-F 3 "" H 2400 4300 50  0001 C CNN
-	1    2400 4300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1725 6150 1725 6300
 Text GLabel 1725 5650 1    60   Input ~ 0
@@ -611,17 +435,6 @@ P0.08
 Text Label 5350 900  2    60   ~ 0
 P0.06
 $Comp
-L nrfmicro:ProMicro U4
-U 1 1 5AC0283B
-P 5850 1250
-F 0 "U4" H 5850 400 60  0000 C CNN
-F 1 "ProMicro" H 5850 1700 60  0000 C CNN
-F 2 "nrfmicro:pro_micro" H 5850 1250 60  0001 C CNN
-F 3 "" H 5850 1250 60  0001 C CNN
-	1    5850 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0116
 U 1 1 5F6F7451
 P 5575 6375
@@ -634,28 +447,6 @@ F 3 "" H 5575 6375 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5575 6375 5575 6175
-$Comp
-L Device:LED D3
-U 1 1 5F6FEF9E
-P 3925 6175
-F 0 "D3" H 3918 5920 50  0000 C CNN
-F 1 "RED" H 3918 6011 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3925 6175 50  0001 C CNN
-F 3 "~" H 3925 6175 50  0001 C CNN
-	1    3925 6175
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R8
-U 1 1 5F6FEFA4
-P 4275 6175
-F 0 "R8" V 4482 6175 50  0000 C CNN
-F 1 "1K" V 4391 6175 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4205 6175 50  0001 C CNN
-F 3 "" H 4275 6175 50  0001 C CNN
-	1    4275 6175
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	4075 6175 4175 6175
 Wire Wire Line
@@ -678,17 +469,6 @@ F 3 "" H 5750 4725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5675 4400 5750 4400
-$Comp
-L Device:R_Small R9
-U 1 1 5F716BF4
-P 5750 4575
-F 0 "R9" H 5820 4621 50  0000 L CNN
-F 1 "2M" H 5820 4530 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5680 4575 50  0001 C CNN
-F 3 "" H 5750 4575 50  0001 C CNN
-	1    5750 4575
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5750 4725 5750 4675
 Wire Wire Line
@@ -792,45 +572,6 @@ F 3 "" H 8350 1575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5F6FE749
-P 8550 1475
-F 0 "J3" H 8630 1467 50  0000 L CNN
-F 1 "Ex_Bat" H 8630 1376 50  0000 L CNN
-F 2 "nrfmicro:connector_bat" H 8550 1475 50  0001 C CNN
-F 3 "~" H 8550 1475 50  0001 C CNN
-	1    8550 1475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J4
-U 1 1 5F709EBA
-P 8575 2275
-F 0 "J4" H 8655 2267 50  0000 L CNN
-F 1 "Ex_USB" H 8655 2176 50  0000 L CNN
-F 2 "nrfmicro:connector_usb" H 8575 2275 50  0001 C CNN
-F 3 "~" H 8575 2275 50  0001 C CNN
-	1    8575 2275
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0119
-U 1 1 5F753538
-P 8375 2375
-F 0 "#PWR0119" H 8375 2125 50  0001 C CNN
-F 1 "GND" H 8375 2225 50  0000 C CNN
-F 2 "" H 8375 2375 50  0001 C CNN
-F 3 "" H 8375 2375 50  0001 C CNN
-	1    8375 2375
-	1    0    0    -1  
-$EndComp
-Text GLabel 8375 2075 0    60   Input ~ 0
-VBUS
-Text GLabel 8375 2275 0    60   Input ~ 0
-DATA+
-Text GLabel 8375 2175 0    60   Input ~ 0
-DATA-
-$Comp
 L power:GND #PWR0120
 U 1 1 5F70D5E2
 P 8325 1050
@@ -843,17 +584,6 @@ F 3 "" H 8325 1050 50  0001 C CNN
 $EndComp
 Text GLabel 8325 750  0    60   Input ~ 0
 nRF_VDD
-$Comp
-L Device:Crystal_Small X1
-U 1 1 5F764467
-P 1300 2150
-F 0 "X1" V 1350 1800 50  0000 L CNN
-F 1 "32.768kHz" V 1250 1650 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm" H 1300 2150 50  0001 C CNN
-F 3 "~" H 1300 2150 50  0001 C CNN
-	1    1300 2150
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	1300 2050 1650 2050
 Wire Wire Line
@@ -862,28 +592,6 @@ Text GLabel 3000 3150 2    60   Input ~ 0
 nRF_VDD
 Wire Wire Line
 	3000 3050 3525 3050
-$Comp
-L Connector_Generic:Conn_01x04 J5
-U 1 1 5FA61940
-P 4000 1000
-F 0 "J5" H 4080 992 50  0000 L CNN
-F 1 " " H 4080 901 50  0000 L CNN
-F 2 "nrfmicro:conn_01x04" H 4000 1000 50  0001 C CNN
-F 3 "~" H 4000 1000 50  0001 C CNN
-	1    4000 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J6
-U 1 1 5FA639E8
-P 4575 1000
-F 0 "J6" H 4655 992 50  0000 L CNN
-F 1 " " H 4655 901 50  0000 L CNN
-F 2 "nrfmicro:conn_01x04" H 4575 1000 50  0001 C CNN
-F 3 "~" H 4575 1000 50  0001 C CNN
-	1    4575 1000
-	1    0    0    -1  
-$EndComp
 Text Label 3800 1100 2    60   ~ 0
 P0.07
 Text Label 4375 1100 2    60   ~ 0
@@ -899,10 +607,10 @@ P1.02
 Text Label 3800 900  2    60   ~ 0
 P1.04
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 5FA7CB83
 P 4375 900
-F 0 "#PWR?" H 4375 650 50  0001 C CNN
+F 0 "#PWR0118" H 4375 650 50  0001 C CNN
 F 1 "GND" V 4380 772 50  0000 R CNN
 F 2 "" H 4375 900 50  0001 C CNN
 F 3 "" H 4375 900 50  0001 C CNN
@@ -911,4 +619,268 @@ F 3 "" H 4375 900 50  0001 C CNN
 $EndComp
 Text GLabel 6625 900  2    60   Input ~ 0
 VBAT
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5FA639E8
+P 4575 1000
+F 0 "J6" H 4655 992 50  0000 L CNN
+F 1 " " H 4655 901 50  0000 L CNN
+F 2 "nrfmicro:conn_01x04" H 4575 1000 50  0001 C CNN
+F 3 "~" H 4575 1000 50  0001 C CNN
+	1    4575 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 5FA61940
+P 4000 1000
+F 0 "J5" H 4080 992 50  0000 L CNN
+F 1 " " H 4080 901 50  0000 L CNN
+F 2 "nrfmicro:conn_01x04" H 4000 1000 50  0001 C CNN
+F 3 "~" H 4000 1000 50  0001 C CNN
+	1    4000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_Small X1
+U 1 1 5F764467
+P 1300 2150
+F 0 "X1" V 1350 1800 50  0000 L CNN
+F 1 "32.768kHz" V 1250 1650 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm" H 1300 2150 50  0001 C CNN
+F 3 "~" H 1300 2150 50  0001 C CNN
+	1    1300 2150
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5F6FE749
+P 8550 1475
+F 0 "J3" H 8630 1467 50  0000 L CNN
+F 1 "Ex_Bat" H 8630 1376 50  0000 L CNN
+F 2 "nrfmicro:connector_bat" H 8550 1475 50  0001 C CNN
+F 3 "~" H 8550 1475 50  0001 C CNN
+	1    8550 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 5F716BF4
+P 5750 4575
+F 0 "R9" H 5820 4621 50  0000 L CNN
+F 1 "2M" H 5820 4530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5680 4575 50  0001 C CNN
+F 3 "" H 5750 4575 50  0001 C CNN
+	1    5750 4575
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5F6FEFA4
+P 4275 6175
+F 0 "R8" V 4482 6175 50  0000 C CNN
+F 1 "1K" V 4391 6175 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4205 6175 50  0001 C CNN
+F 3 "" H 4275 6175 50  0001 C CNN
+	1    4275 6175
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5F6FEF9E
+P 3925 6175
+F 0 "D3" H 3918 5920 50  0000 C CNN
+F 1 "RED" H 3918 6011 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3925 6175 50  0001 C CNN
+F 3 "~" H 3925 6175 50  0001 C CNN
+	1    3925 6175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L nrfmicro:ProMicro U4
+U 1 1 5AC0283B
+P 5850 1250
+F 0 "U4" H 5850 400 60  0000 C CNN
+F 1 "ProMicro" H 5850 1700 60  0000 C CNN
+F 2 "nrfmicro:pro_micro" H 5850 1250 60  0001 C CNN
+F 3 "" H 5850 1250 60  0001 C CNN
+	1    5850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5EBF5A4E
+P 2400 4300
+F 0 "R4" V 2607 4300 50  0000 C CNN
+F 1 "1K" V 2516 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 4300 50  0001 C CNN
+F 3 "" H 2400 4300 50  0001 C CNN
+	1    2400 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5EB6247D
+P 2000 4300
+F 0 "D2" H 1993 4045 50  0000 C CNN
+F 1 "BLUE" H 1993 4136 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2000 4300 50  0001 C CNN
+F 3 "~" H 2000 4300 50  0001 C CNN
+	1    2000 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q2
+U 1 1 5ED04CF8
+P 6025 4400
+F 0 "Q2" H 6225 4475 50  0000 L CNN
+F 1 "AO3407" H 6225 4400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6225 4325 50  0001 L CIN
+F 3 "" H 6025 4400 50  0001 L CNN
+	1    6025 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5ED6D985
+P 4725 4225
+F 0 "R6" H 4795 4271 50  0000 L CNN
+F 1 "820K" H 4795 4180 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4655 4225 50  0001 C CNN
+F 3 "" H 4725 4225 50  0001 C CNN
+	1    4725 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5ED6EA28
+P 4725 4650
+F 0 "R7" H 4795 4696 50  0000 L CNN
+F 1 "2M" H 4795 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4655 4650 50  0001 C CNN
+F 3 "" H 4725 4650 50  0001 C CNN
+	1    4725 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5ED0E40C
+P 5375 6175
+F 0 "R5" V 5168 6175 50  0000 C CNN
+F 1 "RPROG" V 5259 6175 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5305 6175 50  0001 C CNN
+F 3 "" H 5375 6175 50  0001 C CNN
+	1    5375 6175
+	0    -1   1    0   
+$EndComp
+$Comp
+L Battery_Management:MCP73831-3-OT U3
+U 1 1 5EC2C51F
+P 4825 6075
+F 0 "U3" H 4825 6525 50  0000 C CNN
+F 1 "TP4054" H 4825 6425 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4875 5825 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 4675 6025 50  0001 C CNN
+	1    4825 6075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L nrfmicro-rescue:AP2112K-3.3-Regulator_Linear U2
+U 1 1 5EBF7400
+P 2350 6400
+F 0 "U2" H 2350 6742 50  0000 C CNN
+F 1 "XC6220B331MR-G" H 2350 6651 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2350 6725 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 2350 6500 50  0001 C CNN
+	1    2350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q1
+U 1 1 5B1587C5
+P 1625 5950
+F 0 "Q1" H 1825 6025 50  0000 L CNN
+F 1 "AO3407" H 1825 5950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1825 5875 50  0001 L CIN
+F 3 "" H 1625 5950 50  0001 L CNN
+	1    1625 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_Small D1
+U 1 1 5B158495
+P 1525 6300
+F 0 "D1" H 1525 6084 50  0000 C CNN
+F 1 "1N5819" H 1525 6175 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323F" H 1525 6125 50  0001 C CNN
+F 3 "" H 1525 6300 50  0001 C CNN
+	1    1525 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5B159927
+P 1325 6500
+F 0 "R1" H 1395 6546 50  0000 L CNN
+F 1 "100K" H 1395 6455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1255 6500 50  0001 C CNN
+F 3 "" H 1325 6500 50  0001 C CNN
+	1    1325 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L nrfmicro-rescue:USB_C_Receptacle_USB2.0-Connector J1
+U 1 1 5C743564
+P 9875 1800
+F 0 "J1" H 9875 2625 50  0000 C CNN
+F 1 "USB-C Conn" H 9875 2550 50  0000 C CNN
+F 2 "fruitkt:usb-c" H 9982 2575 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 10025 1800 50  0001 C CNN
+	1    9875 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5CDF605B
+P 8525 850
+F 0 "J2" H 8605 842 50  0000 L CNN
+F 1 "SWD" H 8605 751 50  0000 L CNN
+F 2 "nrfmicro:connector_swd" H 8525 850 50  0001 C CNN
+F 3 "~" H 8525 850 50  0001 C CNN
+	1    8525 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CAA879F
+P 8675 3400
+F 0 "R3" H 8745 3446 50  0000 L CNN
+F 1 "5.1K" H 8745 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8605 3400 50  0001 C CNN
+F 3 "~" H 8675 3400 50  0001 C CNN
+	1    8675 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CAA680B
+P 8350 3400
+F 0 "R2" H 8420 3446 50  0000 L CNN
+F 1 "5.1K" H 8420 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8280 3400 50  0001 C CNN
+F 3 "~" H 8350 3400 50  0001 C CNN
+	1    8350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L nrfmicro:E73-2G4M08S1C-52840 U1
+U 1 1 5C7001D3
+P 2350 2150
+F 0 "U1" H 2325 3515 50  0000 C CNN
+F 1 "E73-2G4M08S1C" H 2325 3424 50  0000 C CNN
+F 2 "nrfmicro:E73-2G4M08S1C-52840" H 2350 2150 50  0001 C CNN
+F 3 "" H 2350 2150 50  0001 C CNN
+	1    2350 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
