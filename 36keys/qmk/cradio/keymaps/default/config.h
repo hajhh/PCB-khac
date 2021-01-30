@@ -1,3 +1,0 @@
-#define COMBO_COUNT 3
-#define TAPPING_TERM 200
-
