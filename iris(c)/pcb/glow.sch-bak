@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L fruitkt:6812-2812B LED2
+L iris(c)-rescue:6812-2812B-fruitkt LED2
 U 1 1 5FCCB961
 P 2400 1525
 F 0 "LED2" H 2744 1571 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 2550 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED3
+L iris(c)-rescue:6812-2812B-fruitkt LED3
 U 1 1 5FCCC92D
 P 3250 1525
 F 0 "LED3" H 3594 1571 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "" H 3400 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED4
+L iris(c)-rescue:6812-2812B-fruitkt LED4
 U 1 1 5FCCE4CF
 P 4125 1525
 F 0 "LED4" H 4469 1571 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "" H 4275 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED5
+L iris(c)-rescue:6812-2812B-fruitkt LED5
 U 1 1 5FCCE4D5
 P 4975 1525
 F 0 "LED5" H 5319 1571 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "" H 5125 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED6
+L iris(c)-rescue:6812-2812B-fruitkt LED6
 U 1 1 5FCCF031
 P 5850 1525
 F 0 "LED6" H 6194 1571 50  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "" H 6000 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED7
+L iris(c)-rescue:6812-2812B-fruitkt LED7
 U 1 1 5FCCF037
 P 6700 1525
 F 0 "LED7" H 7044 1571 50  0000 L CNN
@@ -144,7 +144,7 @@ glow-in
 Text HLabel 7000 1525 2    50   Input ~ 0
 glow-out
 $Comp
-L fruitkt:6812-2812B LED1
+L iris(c)-rescue:6812-2812B-fruitkt LED1
 U 1 1 5FD5F71C
 P 1550 1525
 F 0 "LED1" H 1894 1571 50  0000 L CNN

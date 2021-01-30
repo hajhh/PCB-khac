@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCD9304
 P 6425 1275
 AR Path="/5FCD9304" Ref="LED?"  Part="1" 
@@ -49,7 +49,7 @@ F 3 "" H 6425 1575 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCDBCC3
 P 5525 1275
 AR Path="/5FCDBCC3" Ref="LED?"  Part="1" 
@@ -86,7 +86,7 @@ $EndComp
 Wire Wire Line
 	5825 1275 6125 1275
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCDE1C6
 P 4625 1275
 AR Path="/5FCDE1C6" Ref="LED?"  Part="1" 
@@ -121,7 +121,7 @@ F 3 "" H 4625 1575 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCDE1D8
 P 3725 1275
 AR Path="/5FCDE1D8" Ref="LED?"  Part="1" 
@@ -160,7 +160,7 @@ Wire Wire Line
 Wire Wire Line
 	4925 1275 5225 1275
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCE02F6
 P 2825 1275
 AR Path="/5FCE02F6" Ref="LED?"  Part="1" 
@@ -195,7 +195,7 @@ F 3 "" H 2825 1575 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCE0308
 P 1925 1275
 AR Path="/5FCE0308" Ref="LED?"  Part="1" 
@@ -234,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 1275 3425 1275
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCFA14F
 P 1925 2300
 AR Path="/5FCFA14F" Ref="LED?"  Part="1" 
@@ -269,7 +269,7 @@ F 3 "" H 1925 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCFA161
 P 2825 2300
 AR Path="/5FCFA161" Ref="LED?"  Part="1" 
@@ -306,7 +306,7 @@ $EndComp
 Wire Wire Line
 	2525 2300 2225 2300
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCFA174
 P 3725 2300
 AR Path="/5FCFA174" Ref="LED?"  Part="1" 
@@ -341,7 +341,7 @@ F 3 "" H 3725 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCFA186
 P 4625 2300
 AR Path="/5FCFA186" Ref="LED?"  Part="1" 
@@ -380,7 +380,7 @@ Wire Wire Line
 Wire Wire Line
 	3425 2300 3125 2300
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCFA19A
 P 5525 2300
 AR Path="/5FCFA19A" Ref="LED?"  Part="1" 
@@ -415,7 +415,7 @@ F 3 "" H 5525 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FCFA1AC
 P 6425 2300
 AR Path="/5FCFA1AC" Ref="LED?"  Part="1" 
@@ -454,7 +454,7 @@ Wire Wire Line
 Wire Wire Line
 	5225 2300 4925 2300
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD0E741
 P 6425 3350
 AR Path="/5FD0E741" Ref="LED?"  Part="1" 
@@ -489,7 +489,7 @@ F 3 "" H 6425 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD0E753
 P 5525 3350
 AR Path="/5FD0E753" Ref="LED?"  Part="1" 
@@ -526,7 +526,7 @@ $EndComp
 Wire Wire Line
 	5825 3350 6125 3350
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD0E766
 P 4625 3350
 AR Path="/5FD0E766" Ref="LED?"  Part="1" 
@@ -561,7 +561,7 @@ F 3 "" H 4625 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD0E778
 P 3725 3350
 AR Path="/5FD0E778" Ref="LED?"  Part="1" 
@@ -600,7 +600,7 @@ Wire Wire Line
 Wire Wire Line
 	4925 3350 5225 3350
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD0E78C
 P 2825 3350
 AR Path="/5FD0E78C" Ref="LED?"  Part="1" 
@@ -635,7 +635,7 @@ F 3 "" H 2825 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD0E79E
 P 1925 3350
 AR Path="/5FD0E79E" Ref="LED?"  Part="1" 
@@ -674,7 +674,7 @@ Wire Wire Line
 Wire Wire Line
 	3125 3350 3425 3350
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD1B574
 P 1925 4400
 AR Path="/5FD1B574" Ref="LED?"  Part="1" 
@@ -709,7 +709,7 @@ F 3 "" H 1925 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD1B586
 P 2825 4400
 AR Path="/5FD1B586" Ref="LED?"  Part="1" 
@@ -746,7 +746,7 @@ $EndComp
 Wire Wire Line
 	2525 4400 2225 4400
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD1B599
 P 3725 4400
 AR Path="/5FD1B599" Ref="LED?"  Part="1" 
@@ -781,7 +781,7 @@ F 3 "" H 3725 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD1B5AB
 P 4625 4400
 AR Path="/5FD1B5AB" Ref="LED?"  Part="1" 
@@ -820,7 +820,7 @@ Wire Wire Line
 Wire Wire Line
 	3425 4400 3125 4400
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD1B5BF
 P 5525 4400
 AR Path="/5FD1B5BF" Ref="LED?"  Part="1" 
@@ -855,7 +855,7 @@ F 3 "" H 5525 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD1B5D1
 P 6425 4400
 AR Path="/5FD1B5D1" Ref="LED?"  Part="1" 
@@ -894,7 +894,7 @@ Wire Wire Line
 Wire Wire Line
 	5225 4400 4925 4400
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD2A6BC
 P 6425 5475
 AR Path="/5FD2A6BC" Ref="LED?"  Part="1" 
@@ -929,7 +929,7 @@ F 3 "" H 6425 5775 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD2A6CE
 P 5525 5475
 AR Path="/5FD2A6CE" Ref="LED?"  Part="1" 
@@ -966,7 +966,7 @@ $EndComp
 Wire Wire Line
 	5825 5475 6125 5475
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD2A6E1
 P 4625 5475
 AR Path="/5FD2A6E1" Ref="LED?"  Part="1" 
@@ -1001,7 +1001,7 @@ F 3 "" H 4625 5775 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fruitkt:6812-2812B LED?
+L iris(c)-rescue:6812-2812B-fruitkt LED?
 U 1 1 5FD2A6F3
 P 4625 5475
 AR Path="/5FD2A6F3" Ref="LED?"  Part="1" 

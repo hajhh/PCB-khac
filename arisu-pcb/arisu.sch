@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U2
-U 1 1 5C4B1F82
-P 4500 4250
-F 0 "U2" H 4900 2400 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 4900 2500 50  0000 C CNN
-F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 4500 4250 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4500 4250 50  0001 C CNN
-	1    4500 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:USB_B_Micro J1
 U 1 1 5C4B21E5
 P 1000 4800
@@ -476,23 +465,23 @@ Connection ~ 5250 2100
 $Comp
 L power:GND #PWR0116
 U 1 1 5C4F0424
-P 4500 6150
-F 0 "#PWR0116" H 4500 5900 50  0001 C CNN
-F 1 "GND" H 4505 5977 50  0000 C CNN
-F 2 "" H 4500 6150 50  0001 C CNN
-F 3 "" H 4500 6150 50  0001 C CNN
-	1    4500 6150
+P 4475 7000
+F 0 "#PWR0116" H 4475 6750 50  0001 C CNN
+F 1 "GND" H 4480 6827 50  0000 C CNN
+F 2 "" H 4475 7000 50  0001 C CNN
+F 3 "" H 4475 7000 50  0001 C CNN
+	1    4475 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 6050 4400 6100
+	4375 6900 4375 6950
 Wire Wire Line
-	4400 6100 4500 6100
+	4375 6950 4475 6950
 Wire Wire Line
-	4500 6100 4500 6150
+	4475 6950 4475 7000
 Wire Wire Line
-	4500 6050 4500 6100
-Connection ~ 4500 6100
+	4475 6900 4475 6950
+Connection ~ 4475 6950
 $Comp
 L power:VCC #PWR0117
 U 1 1 5C4F181F
@@ -1257,6 +1246,17 @@ Wire Wire Line
 Connection ~ 1900 4600
 Wire Wire Line
 	1900 4600 2750 4600
+$Comp
+L MCU_Microchip_AVR:AT90USB1286-MU U3
+U 1 1 6013B83C
+P 4500 4450
+F 0 "U3" H 4500 2361 50  0000 C CNN
+F 1 "AT90USB1286-MU" H 4500 2270 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm" H 4500 4450 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 4500 4450 50  0001 C CNN
+	1    4500 4450
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	5750 2700 5750 3150
 Wire Bus Line

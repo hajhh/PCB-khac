@@ -99,7 +99,7 @@ F 1 " " H 3175 1644 50  0000 C CNN
 F 2 "MX-Flip:SW-1u-Aps-Split" H 3175 1650 50  0001 C CNN
 F 3 "~" H 3175 1650 50  0001 C CNN
 	1    3175 1450
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D D4
@@ -2404,75 +2404,11 @@ Wire Wire Line
 	6975 1300 6975 2325
 Text GLabel 10575 1300 2    60   Input ~ 0
 led
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J13
-U 1 1 60161BE3
-P 5650 5250
-F 0 "J13" H 5220 5189 50  0000 R CNN
-F 1 " " H 5220 5098 50  0000 R CNN
-F 2 "fruitkt:USB-C-16pin-hight" H 5800 5250 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5800 5250 50  0001 C CNN
-	1    5650 5250
-	-1   0    0    -1  
-$EndComp
 Connection ~ 6825 5550
 Connection ~ 6825 5650
-$Comp
-L power:GND #PWR0113
-U 1 1 60188703
-P 5800 6150
-F 0 "#PWR0113" H 5800 5900 50  0001 C CNN
-F 1 "GND" V 5805 6022 50  0000 R CNN
-F 2 "" H 5800 6150 50  0001 C CNN
-F 3 "" H 5800 6150 50  0001 C CNN
-	1    5800 6150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0114
-U 1 1 60188709
-P 5050 4650
-F 0 "#PWR0114" H 5050 4500 50  0001 C CNN
-F 1 "VCC" V 5065 4778 50  0000 L CNN
-F 2 "" H 5050 4650 50  0001 C CNN
-F 3 "" H 5050 4650 50  0001 C CNN
-	1    5050 4650
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	5650 6150 5800 6150
-Connection ~ 5800 6150
-Wire Wire Line
-	5800 6150 5950 6150
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J14
-U 1 1 60199990
-P 5650 5250
-F 0 "J14" H 5220 5189 50  0000 R CNN
-F 1 " " H 5220 5098 50  0000 R CNN
-F 2 "fruitkt:USB-C-16pin-hight" H 5800 5250 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5800 5250 50  0001 C CNN
-	1    5650 5250
-	-1   0    0    -1  
-$EndComp
-Connection ~ 5050 4650
-Connection ~ 5650 6150
-Connection ~ 5950 6150
-Wire Wire Line
-	5050 5250 5050 5150
-Connection ~ 5050 5250
-Connection ~ 5050 5150
-Wire Wire Line
-	5050 5350 5050 5450
-Connection ~ 5050 5350
-Connection ~ 5050 5450
 Text GLabel 6825 5450 0    60   Input ~ 0
 1
 Text GLabel 6825 5750 0    60   Input ~ 0
-2
-Text GLabel 5050 5200 0    60   Input ~ 0
-1
-Text GLabel 5050 5400 0    60   Input ~ 0
 2
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP9
@@ -2631,4 +2567,92 @@ Text GLabel 2350 4675 2    60   Input ~ 0
 RST
 Text GLabel 3475 5325 0    60   Input ~ 0
 RST
+$Comp
+L power:GND #PWR0119
+U 1 1 60148C68
+P 1150 6125
+F 0 "#PWR0119" H 1150 5875 50  0001 C CNN
+F 1 "GND" H 1155 5952 50  0000 C CNN
+F 2 "" H 1150 6125 50  0001 C CNN
+F 3 "" H 1150 6125 50  0001 C CNN
+	1    1150 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 601491C9
+P 1400 6125
+F 0 "#PWR0120" H 1400 5875 50  0001 C CNN
+F 1 "GND" H 1405 5952 50  0000 C CNN
+F 2 "" H 1400 6125 50  0001 C CNN
+F 3 "" H 1400 6125 50  0001 C CNN
+	1    1400 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 6014E1A3
+P 1150 6500
+F 0 "#PWR0121" H 1150 6250 50  0001 C CNN
+F 1 "GND" H 1155 6327 50  0000 C CNN
+F 2 "" H 1150 6500 50  0001 C CNN
+F 3 "" H 1150 6500 50  0001 C CNN
+	1    1150 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 6014E1A9
+P 1400 6500
+F 0 "#PWR0122" H 1400 6250 50  0001 C CNN
+F 1 "GND" H 1405 6327 50  0000 C CNN
+F 2 "" H 1400 6500 50  0001 C CNN
+F 3 "" H 1400 6500 50  0001 C CNN
+	1    1400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 60150D30
+P 1150 6850
+F 0 "#PWR0123" H 1150 6600 50  0001 C CNN
+F 1 "GND" H 1155 6677 50  0000 C CNN
+F 2 "" H 1150 6850 50  0001 C CNN
+F 3 "" H 1150 6850 50  0001 C CNN
+	1    1150 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 60150D36
+P 1400 6850
+F 0 "#PWR0124" H 1400 6600 50  0001 C CNN
+F 1 "GND" H 1405 6677 50  0000 C CNN
+F 2 "" H 1400 6850 50  0001 C CNN
+F 3 "" H 1400 6850 50  0001 C CNN
+	1    1400 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 6015389F
+P 1150 7225
+F 0 "#PWR0125" H 1150 6975 50  0001 C CNN
+F 1 "GND" H 1155 7052 50  0000 C CNN
+F 2 "" H 1150 7225 50  0001 C CNN
+F 3 "" H 1150 7225 50  0001 C CNN
+	1    1150 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 601538A5
+P 1400 7225
+F 0 "#PWR0126" H 1400 6975 50  0001 C CNN
+F 1 "GND" H 1405 7052 50  0000 C CNN
+F 2 "" H 1400 7225 50  0001 C CNN
+F 3 "" H 1400 7225 50  0001 C CNN
+	1    1400 7225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
