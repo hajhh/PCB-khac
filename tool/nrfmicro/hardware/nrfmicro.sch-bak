@@ -883,4 +883,30 @@ F 3 "" H 2350 2150 50  0001 C CNN
 	1    2350 2150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 602E939F
+P 8100 2075
+F 0 "J?" V 8064 1987 50  0000 R CNN
+F 1 "Data +" V 7973 1987 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 8100 2075 50  0001 C CNN
+F 3 "~" H 8100 2075 50  0001 C CNN
+	1    8100 2075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 602EA25D
+P 8575 2075
+F 0 "J?" V 8539 1987 50  0000 R CNN
+F 1 "Data -" V 8448 1987 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 8575 2075 50  0001 C CNN
+F 3 "~" H 8575 2075 50  0001 C CNN
+	1    8575 2075
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8575 2275 3    60   Input ~ 0
+DATA-
+Text GLabel 8100 2275 3    60   Input ~ 0
+DATA+
 $EndSCHEMATC

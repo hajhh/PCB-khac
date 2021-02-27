@@ -1,4 +1,4 @@
-update=Sat 22 Aug 2020 11:27:24
+update=Thứ sáu, 19 Tháng hai Năm 2021 15:25:03 +07
 version=1
 last_client=kicad
 [general]

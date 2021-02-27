@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_B_Micro J1
+L anavi-macro-pad-8-rescue:USB_B_Micro-Connector J1
 U 1 1 5EACE252
 P 950 3300
 F 0 "J1" H 1007 3767 50  0000 C CNN
